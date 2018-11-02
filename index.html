@@ -6,9 +6,146 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Willow</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
     <link rel='stylesheet' href='scss/main.scss'>
 </head>
 <body>
-    
+    <header id="home">
+        <div class="header__upper-wrapper">
+            <img class="header__upper-wrapper-image" src="assets/hamburger-menu.png" alt="hamburger menu icon">
+            <nav class="header__upper-wrapper-nav header__upper-wrapper-nav--mobile">
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#home">Home</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="#about">About</a>
+                    </li>
+                    <li class="header__list-item">
+                        <h2 class="header__list-item-second-heading">
+                            <a class="header__list-link" href="#home">Willow</a>
+                        </h2>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__bottom-wrapper">
+            <h1 class="header__bottom-wrapper-first-heading">Willow</h1>
+            <img class="header__bottom-wrapper-image" src="assets/home-image-1.jpg" alt="girl looking at an angle with leaves behind her">
+        </div>
+    </header>
+    <main id="main-content">
+        <section class="about-willow" id="about">
+            <div class="about-willow__wrapper">
+                <h2 class="about-willow__second-heading second-heading">Who's Willow?</h2>
+                <p class="about-willow__text">Cras quis nulla commodo, aliquam lectus sed, blandit argue. Cras ullamcorper
+                    bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare.
+                    Phasellus at semper turpis. Nunc eu tellus tortor. Etiam at condimentum nisl, vitae sagittis orci. Donec id
+                    dignissim nunc. Donec elit ante, eleifend a dolor et, venenatis facilisis dolor.</p>
+                <a class="about-willow__link-button" href="#">Find out more</a>
+            </div>
+        </section>
+        <section class="blog" id="blog">
+            <div class="blog__first-entry">
+                <figure class="blog__first-entry-figure">
+                    <img class="blog__first-entry-image" src="assets/home-image-2.jpg" alt="Bridge with a waterfall in the background">
+                </figure>
+                <div class="blog__first-entry-text-container">
+                    <h3 class="blog__first-entry-third-heading third-heading">Favourite Things</h3>
+                    <p class="blog__first-entry-text">Lorem ipsum dolor sit amet, consecteteur adipiscing elit. In et risus nec
+                        orci ornare condimentum. Nam suscipit odio lorem, id vestibulum lacus tristique eu. Sed urna ex,
+                        porttitor nec iaculis at.</p>
+                    <a class="blog__link-button" href="blog.html">Read more</a>
+                </div>
+            </div>
+            <div class="blog__second-entry">
+                <figure class="blog__second-entry-figure">
+                    <img class="blog__second-entry-image" src="assets/home-image-3.jpg" alt="Flower floating on water">
+                </figure>
+                <div class="blog__second-entry-text-container third-heading">
+                    <h3 class="blog__second-entry-third-heading">Bucket List</h3>
+                    <p class="blog__second-entry-text">Lorem ipsum dolor sit amet, consecteteur adipiscing elit. In et risus
+                        nec
+                        orci ornare condimentum. Nam suscipit odio lorem, id vestibulum lacus tristique eu. Sed urna ex,
+                        porttitor
+                        nec iaculis at.</p>
+                    <a class="blog__link-button" href="blog.html">Read more</a>
+                </div>
+            </div>
+        </section>
+        <section class="about-willow">
+            <div class="about-willow__wrapper">
+                <h3 class="about-willow__second-heading second-heading">Willow's Journey</h3>
+                <p class="about-willow__text">Lorem ipsum dolor sit amet, consecteteur adipiscing elit. Nulla pulvinar tortor
+                    nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis
+                    convallis dapibus nulla pulvinar tortor.Lorem ipsum dolor sit amet, consecteteur adipiscing elit. Nulla
+                    pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus.</p>
+                <a class="about-willow__link-button" href="#">Find out more</a>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="gallery__wrapper">
+                <ul class="gallery__wrapper-list">
+                    <li class="gallery__list-item"><img src="assets/home-image-6.jpg" alt="Highway road with trees on both sides in a foggy day"></li>
+                    <li class="gallery__list-item"><img src="assets/home-image-7.jpg" alt="Whole lemons in a bowl with sliced lemons on the side"></li>
+                    <li class="gallery__list-item mobile--hidden"><img src="assets/home-image-8.jpg" alt="Winding staircase leading upstairs"></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__upper-wrapper">
+            <nav class="footer__upper-wrapper-nav">
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a class="footer__list-link" href="#gallery">
+                            <i class="fas fa-image" aria-hidden="true"></i>
+                        </a>
+                        <div class="footer__list-container">
+                            <h3 class="footer__list-container-heading third-heading">Photos</h3>
+                            <p class="footer__list-container-text">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
+                        </div>
+                    </li>
+                    <li class="footer__list-item">
+                        <a class="footer__list-link" href="#about">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </a>
+                        <div class="footer__list-container">
+                            <h3 class="footer__list-container-heading third-heading">About</h3>
+                            <p class="footer__list-container-text">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
+                        </div>
+                    </li>
+                    <li class="footer__list-item">
+                        <a class="footer__list-link" href="blog.html">
+                            <i class="fas fa-desktop" aria-hidden="true"></i>
+                        </a>
+                        <div class="footer__list-container">
+                            <h3 class="footer__list-container-heading third-heading">Blog</h3>
+                            <p class="footer__list-container-text">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
+                        </div>
+                    </li>
+                    <li class="footer__list-item">
+                        <a class="footer__list-link" href="contact.html">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                        </a>
+                        <div class="footer__list-container">
+                            <h3 class="footer__list-container-heading third-heading">Contact Me</h3>
+                            <p class="footer__list-container-text">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__bottom-wrapper">
+            <p class="footer__bottom-wrapper-text">Copyright &copy; 2018 HackerYou</p>
+        </div>
+    </footer>
 </body>
 </html>
