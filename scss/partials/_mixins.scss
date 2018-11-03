@@ -1,0 +1,5 @@
+@mixin pseudo-element($pseudo-content) {
+    content: $pseudo-content;
+    display: block;
+    position: absolute;
+}

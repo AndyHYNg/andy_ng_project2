@@ -1,0 +1,56 @@
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: $pine;
+
+    &__upper-wrapper {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list-item:not(:nth-child(3)) {
+        display: none;
+    }
+
+    &__bottom-wrapper {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        align-items: center;
+        
+        &-first-heading {
+            position: relative;
+        }
+
+        &-first-heading::before {
+            @include pseudo-element(url(../../assets/circle-text.png));
+            transform: scale(0.5);
+            top: -50px;
+            left: -85px;
+        }
+    }
+}
+
+.wrapper--margin {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list--normalize {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link--normalize {
+    text-decoration: none;
+}
+
+.heading--normalize {
+    margin: 0;
+}
