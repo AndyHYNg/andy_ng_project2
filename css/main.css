@@ -321,11 +321,20 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem; }
 
+.gallery__wrapper-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.gallery__list-item {
+  width: 50%; }
+
 html {
   font-size: 62.5%; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  display: block; }
 
 .wrapper--margin {
   padding-left: 10px;
@@ -335,6 +344,9 @@ img {
   list-style-type: none;
   padding: 0;
   margin: 0; }
+
+.list-item--hidden {
+  display: none; }
 
 .link--normalize {
   text-decoration: none; }

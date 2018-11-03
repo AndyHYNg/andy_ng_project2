@@ -1,0 +1,11 @@
+.gallery {
+
+    &__wrapper-list {
+        display: flex;
+        // flex-wrap: wrap;
+    }
+
+    &__list-item {
+        width: 50%;
+    }
+}
