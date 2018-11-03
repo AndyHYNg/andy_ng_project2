@@ -12,7 +12,7 @@
         }
 
         &-third-heading {
-            @include second-heading(3.2rem);
+            @include heading-style(3.2rem);
         }
 
         &-text {
@@ -33,7 +33,7 @@
         }
 
         &-third-heading {
-            @include second-heading(3.2rem);
+            @include heading-style(3.2rem);
         }
 
         &-text {

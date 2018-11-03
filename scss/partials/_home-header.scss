@@ -18,7 +18,7 @@
     }
 
     &__second-heading {
-        @include second-heading(4.2rem);
+        @include heading-style(4.2rem);
     }
 
     &__list-link {

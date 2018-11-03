@@ -4,6 +4,7 @@
 @import "partials/home-header";
 @import "partials/home-about-willow";
 @import "partials/home-blog";
+@import "partials/home-willow-journey";
 
 html {
     font-size: 62.5%;
@@ -34,7 +35,7 @@ img {
     background-color: $accent-color;
     padding: 15px 18px;
     color: $black;
-    @include second-heading(1.8rem);
+    @include heading-style(1.8rem);
 }
 
 .heading--normalize {

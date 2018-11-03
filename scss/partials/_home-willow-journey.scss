@@ -1,0 +1,27 @@
+.willow-journey {
+    background: $white-shade;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__third-heading {
+        text-align: center;
+        @include heading-style(4.2rem);
+    }
+
+    &__text {
+        text-align: center;
+        @include body-text(2rem);
+    }
+}
