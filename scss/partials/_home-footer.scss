@@ -1,0 +1,52 @@
+.footer {
+    background: $white-shade;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        // flex-wrap: wrap;
+
+        &-item {
+            // margin-left: 30%;
+            display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+        }
+
+        &-link-icon {
+            color: $accent-color;
+            flex: 1 0 40%;
+        }
+
+        &-container {
+            flex: 3 0 50%;
+            display: flex;
+            flex-direction: column;
+            //more stylings for tablet and beyond
+        }
+
+        &-heading-link {
+            text-transform: uppercase;
+            @include heading-style(3.2rem);
+            color: $black;
+        }
+    }
+
+    &__inner-icon {
+        color: $black;
+    }
+
+    &__bottom-wrapper {
+        background: $black;
+
+        &-text {
+            margin: 0;
+            color: $white-shade;
+            @include body-text(1.8rem);
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+}

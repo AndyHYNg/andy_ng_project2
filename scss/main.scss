@@ -6,6 +6,7 @@
 @import "partials/home-blog";
 @import "partials/home-willow-journey";
 @import "partials/home-gallery";
+@import "partials/home-footer";
 
 html {
     font-size: 62.5%;
@@ -33,6 +34,10 @@ img {
 
 .link--normalize {
     text-decoration: none;
+}
+
+.text--hidden {
+    display: none;
 }
 
 //unsure where to put this
