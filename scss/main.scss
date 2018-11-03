@@ -3,6 +3,10 @@
 @import "partials/mixins";
 @import "partials/home-header";
 
+html {
+    font-size: 62.5%;
+}
+
 img {
     max-width: 100%;
 }

@@ -17,6 +17,14 @@
         display: none;
     }
 
+    &__second-heading {
+        @include second-heading(2.2rem);
+    }
+
+    &__list-link {
+        color: $white-shade;
+    }
+
     &__bottom-wrapper {
         display: flex;
         flex-grow: 1;
@@ -24,14 +32,18 @@
         align-items: center;
         
         &-first-heading {
-            position: relative;
+            position: absolute;
+            top: 70px;
+            font-family: $primary-font;
+            color: $white-shade;
+            font-size: 6rem;
         }
 
         &-first-heading::before {
             @include pseudo-element(url(../../assets/circle-text.png));
-            transform: scale(0.5);
-            top: -50px;
-            left: -85px;
+            transform: scale(0.4);
+            top: -55px;
+            left: -66px;
         }
     }
 }

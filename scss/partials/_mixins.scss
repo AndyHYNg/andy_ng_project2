@@ -3,3 +3,13 @@
     display: block;
     position: absolute;
 }
+
+@mixin second-heading($font-size) {
+    font-family: $primary-font;
+    font-size: $font-size;
+}
+
+// @mixin font-size($size-value) {
+//   font-size: ($size-value * 10) + px;
+//   font-size: $size-value + rem;
+// }
