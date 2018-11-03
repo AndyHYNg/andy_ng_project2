@@ -6,39 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Willow</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
-    <link rel='stylesheet' href='scss/main.scss'>
+    <link rel='stylesheet' href='css/main.css'>
 </head>
 <body>
-    <header id="home">
-        <div class="header__upper-wrapper">
-            <img class="header__upper-wrapper-image" src="assets/hamburger-menu.png" alt="hamburger menu icon">
-            <nav class="header__upper-wrapper-nav header__upper-wrapper-nav--mobile">
-                <ul class="header__list">
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="#home">Home</a>
+    <header class="main-header" id="home">
+        <div class="main-header__upper-wrapper wrapper--margin">
+            <img class="main-header__upper-wrapper-image" src="assets/hamburger-menu.png" alt="hamburger menu icon"> <!--might want to use fontawesome instead of the img -->
+            <nav class="main-header__upper-wrapper-nav">
+                <ul class="main-header__list list--normalize">
+                    <li class="main-header__list-item">
+                        <a class="main-header__list-link link--normalize" href="#home">Home</a>
                     </li>
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="#about">About</a>
+                    <li class="main-header__list-item">
+                        <a class="main-header__list-link link--normalize" href="#about">About</a>
                     </li>
-                    <li class="header__list-item">
-                        <h2 class="header__list-item-second-heading">
-                            <a class="header__list-link" href="#home">Willow</a>
+                    <li class="main-header__list-item list-item--mobile">
+                        <h2 class="main-header__second-heading heading--normalize">
+                            <a class="main-header__list-link link--normalize" href="#home">Willow</a>
                         </h2>
                     </li>
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="blog.html">Blog</a>
+                    <li class="main-header__list-item">
+                        <a class="main-header__list-lin link--normalize" href="blog.html">Blog</a>
                     </li>
-                    <li class="header__list-item">
-                        <a class="header__list-link" href="contact.html">Contact</a>
+                    <li class="main-header__list-item">
+                        <a class="main-header__list-link link--normalize" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <div class="header__bottom-wrapper">
-            <h1 class="header__bottom-wrapper-first-heading">Willow</h1>
-            <img class="header__bottom-wrapper-image" src="assets/home-image-1.jpg" alt="girl looking at an angle with leaves behind her">
+        <div class="main-header__bottom-wrapper wrapper--margin">
+            <h1 class="main-header__bottom-wrapper-first-heading heading--normalize">Willow</h1>
+            <img class="main-header__bottom-wrapper-image" src="assets/home-image-1.jpg" alt="girl looking at an angle with leaves behind her">
         </div>
     </header>
     <main id="main-content">
