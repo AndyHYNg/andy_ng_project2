@@ -163,7 +163,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     display: none; }
   .main-header__second-heading {
     font-family: "Abril Fatface", cursive;
-    font-size: 2.2rem; }
+    font-size: 4.2rem;
+    text-transform: uppercase; }
   .main-header__list-link {
     color: #f6f6f6; }
   .main-header__bottom-wrapper {
@@ -182,10 +183,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     align-items: center; }
     .main-header__bottom-wrapper-first-heading {
       position: absolute;
-      top: 70px;
+      top: 90px;
       font-family: "Abril Fatface", cursive;
       color: #f6f6f6;
-      font-size: 6rem; }
+      font-size: 8rem; }
     .main-header__bottom-wrapper-first-heading::before {
       content: url(../../assets/circle-text.png);
       display: block;
@@ -195,6 +196,96 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       transform: scale(0.4);
       top: -55px;
       left: -66px; }
+
+.about-willow {
+  background: #f6f6f6; }
+  .about-willow__wrapper {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .about-willow__second-heading {
+    font-family: "Abril Fatface", cursive;
+    font-size: 4.2rem;
+    text-transform: uppercase; }
+  .about-willow__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem; }
+
+.blog__first-entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .blog__first-entry-text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .blog__first-entry-third-heading {
+    font-family: "Abril Fatface", cursive;
+    font-size: 3.2rem;
+    text-transform: uppercase; }
+  .blog__first-entry-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-align: center; }
+
+.blog__second-entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .blog__second-entry-text-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .blog__second-entry-third-heading {
+    font-family: "Abril Fatface", cursive;
+    font-size: 3.2rem;
+    text-transform: uppercase; }
+  .blog__second-entry-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-align: center; }
+
+html {
+  font-size: 62.5%; }
+
+img {
+  max-width: 100%; }
 
 .wrapper--margin {
   padding-left: 10px;
@@ -208,13 +299,16 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .link--normalize {
   text-decoration: none; }
 
+.link--button {
+  text-transform: uppercase;
+  background-color: #e4a43b;
+  padding: 15px 18px;
+  color: #1f1f1f;
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.8rem;
+  text-transform: uppercase; }
+
 .heading--normalize {
   margin: 0; }
-
-html {
-  font-size: 62.5%; }
-
-img {
-  max-width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

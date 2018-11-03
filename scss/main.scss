@@ -2,6 +2,8 @@
 @import "partials/variables";
 @import "partials/mixins";
 @import "partials/home-header";
+@import "partials/home-about-willow";
+@import "partials/home-blog";
 
 html {
     font-size: 62.5%;
@@ -9,4 +11,32 @@ html {
 
 img {
     max-width: 100%;
+}
+
+.wrapper--margin {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list--normalize {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link--normalize {
+    text-decoration: none;
+}
+
+//unsure where to put this
+.link--button {
+    text-transform: uppercase;
+    background-color: $accent-color;
+    padding: 15px 18px;
+    color: $black;
+    @include second-heading(1.8rem);
+}
+
+.heading--normalize {
+    margin: 0;
 }

@@ -1,0 +1,18 @@
+.about-willow {
+    background: $white-shade;
+
+    &__wrapper {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__second-heading {
+        @include second-heading(4.2rem);
+    }
+
+    &__text {
+        @include body-text(2rem);
+    }
+}

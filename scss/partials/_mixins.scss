@@ -4,8 +4,16 @@
     position: absolute;
 }
 
+//not limited to second-heading
 @mixin second-heading($font-size) {
+    //mobile set to 2.2rem
     font-family: $primary-font;
+    font-size: $font-size;
+    text-transform: uppercase;
+}
+
+@mixin body-text($font-size) {
+    font-family: $secondary-font;
     font-size: $font-size;
 }
 

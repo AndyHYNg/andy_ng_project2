@@ -18,7 +18,7 @@
     }
 
     &__second-heading {
-        @include second-heading(2.2rem);
+        @include second-heading(4.2rem);
     }
 
     &__list-link {
@@ -33,10 +33,10 @@
         
         &-first-heading {
             position: absolute;
-            top: 70px;
+            top: 90px;
             font-family: $primary-font;
             color: $white-shade;
-            font-size: 6rem;
+            font-size: 8rem;
         }
 
         &-first-heading::before {
@@ -46,23 +46,4 @@
             left: -66px;
         }
     }
-}
-
-.wrapper--margin {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.list--normalize {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.link--normalize {
-    text-decoration: none;
-}
-
-.heading--normalize {
-    margin: 0;
 }
