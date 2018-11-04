@@ -26,6 +26,7 @@
     }
 
     &__bottom-wrapper {
+        position: relative;
         display: flex;
         flex-grow: 1;
         flex-direction: column;
@@ -33,7 +34,7 @@
         
         &-first-heading {
             position: absolute;
-            top: 90px;
+            top: 5vh;
             font-family: $primary-font;
             color: $white-shade;
             font-size: 8rem;
@@ -44,6 +45,10 @@
             transform: scale(0.4);
             top: -55px;
             left: -66px;
+        }
+
+        &-image {
+            width: 100vw;
         }
     }
 }

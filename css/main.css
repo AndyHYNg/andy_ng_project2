@@ -168,6 +168,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .main-header__list-link {
     color: #f6f6f6; }
   .main-header__bottom-wrapper {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -183,7 +184,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     align-items: center; }
     .main-header__bottom-wrapper-first-heading {
       position: absolute;
-      top: 90px;
+      top: 5vh;
       font-family: "Abril Fatface", cursive;
       color: #f6f6f6;
       font-size: 8rem; }
@@ -196,6 +197,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       transform: scale(0.4);
       top: -55px;
       left: -66px; }
+    .main-header__bottom-wrapper-image {
+      width: 100vw; }
 
 .about-willow {
   background: #f6f6f6; }
