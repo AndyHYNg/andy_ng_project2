@@ -2,10 +2,16 @@
     background: $white-shade;
 
     &__wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    &__img-container {
+        margin-bottom: 50px;
     }
 
     &__text-container {

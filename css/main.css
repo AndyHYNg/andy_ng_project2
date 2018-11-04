@@ -200,6 +200,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .about-willow {
   background: #f6f6f6; }
   .about-willow__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -231,6 +233,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -ms-flex-align: center;
   align-items: center; }
   .blog__first-entry-text-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -262,6 +266,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -ms-flex-align: center;
   align-items: center; }
   .blog__second-entry-text-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -284,6 +290,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .willow-journey {
   background: #f6f6f6; }
   .willow-journey__wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -297,6 +305,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+  .willow-journey__img-container {
+    margin-bottom: 50px; }
   .willow-journey__text-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -331,6 +341,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .footer {
   background: #f6f6f6; }
+  .footer__upper-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px; }
   .footer__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -345,7 +358,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       display: flex;
       -webkit-box-align: center;
       -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+      padding-bottom: 30px; }
+    .footer__list-item:last-child {
+      padding-bottom: 0; }
     .footer__list-link-icon {
       color: #e4a43b;
       -webkit-box-flex: 1;

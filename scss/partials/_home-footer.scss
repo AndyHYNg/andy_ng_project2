@@ -1,17 +1,26 @@
 .footer {
     background: $white-shade;
 
+    &__upper-wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     &__list {
         display: flex;
         flex-direction: column;
         // flex-wrap: wrap;
 
         &-item {
-            // margin-left: 30%;
             display: flex;
             // flex-direction: column;
             // justify-content: center;
             align-items: center;
+            padding-bottom: 30px;
+        }
+
+        &-item:last-child {
+            padding-bottom: 0;
         }
 
         &-link-icon {
