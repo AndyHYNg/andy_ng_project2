@@ -1,0 +1,34 @@
+.wrapper--padding {
+    padding-left: var(--wrapper-padding);
+    padding-right: var(--wrapper-padding);
+}
+
+.list--normalize {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-item--hidden {
+    display: none;
+}
+
+.link--normalize {
+    text-decoration: none;
+}
+
+.text--hidden {
+    display: none;
+}
+
+.link--button {
+    text-transform: uppercase;
+    background-color: $accent-color;
+    padding: 15px 18px;
+    color: $black;
+    @include heading-style(1.8rem);
+}
+
+.heading--normalize {
+    margin: 0;
+}

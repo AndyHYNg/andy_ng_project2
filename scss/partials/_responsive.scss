@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+    .main-header {
+        &__bottom-wrapper {
+            margin-left: 10%;
+            margin-right: 10%;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+
+            &-first-heading {
+                text-align: right;
+                align-self: center;
+                width: 60%;
+                position: relative;
+                font-size: 8.5rem;
+            }
+
+            &-first-heading::before {
+                top: -40px;
+                left: -60px;
+                transform: scale(0.6);
+            }
+
+            &-image {
+                width: initial;
+                position: relative;
+                top: 20vh;
+                box-shadow: 15px 15px white;
+                margin-left: 5%;
+            }
+        }
+    }
+}

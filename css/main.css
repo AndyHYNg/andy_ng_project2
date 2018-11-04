@@ -133,6 +133,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   box-sizing: border-box; }
 
 .main-header {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,11 +184,12 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-flex-align: center;
     align-items: center; }
     .main-header__bottom-wrapper-first-heading {
+      text-transform: uppercase;
       position: absolute;
       top: 5vh;
       font-family: "Abril Fatface", cursive;
       color: #f6f6f6;
-      font-size: 8rem; }
+      font-size: 6rem; }
     .main-header__bottom-wrapper-first-heading::before {
       content: url(../../assets/circle-text.png);
       display: block;
@@ -222,7 +224,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     text-transform: uppercase; }
   .about-willow__text {
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem; }
+    font-size: 2rem;
+    line-height: 3.2rem; }
 
 .blog__first-entry {
   display: -webkit-box;
@@ -255,6 +258,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .blog__first-entry-text {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
+    line-height: 3.2rem;
     text-align: center; }
 
 .blog__second-entry {
@@ -288,6 +292,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .blog__second-entry-text {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
+    line-height: 3.2rem;
     text-align: center; }
 
 .willow-journey {
@@ -332,7 +337,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .willow-journey__text {
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 2rem; }
+    font-size: 2rem;
+    line-height: 3.2rem; }
 
 .gallery__wrapper-list {
   display: -webkit-box;
@@ -396,19 +402,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       color: #f6f6f6;
       font-family: "Montserrat", sans-serif;
       font-size: 1.8rem;
+      line-height: 3.2rem;
       text-align: center;
       padding-top: 5px;
       padding-bottom: 5px; }
-
-:root {
-  --wrapper-padding: 5%; }
-
-html {
-  font-size: 62.5%; }
-
-img {
-  max-width: 100%;
-  display: block; }
 
 .wrapper--padding {
   padding-left: var(--wrapper-padding);
@@ -439,5 +436,50 @@ img {
 
 .heading--normalize {
   margin: 0; }
+
+@media (min-width: 768px) {
+  .main-header__bottom-wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    .main-header__bottom-wrapper-first-heading {
+      text-align: right;
+      -ms-flex-item-align: center;
+      align-self: center;
+      width: 60%;
+      position: relative;
+      font-size: 8.5rem; }
+    .main-header__bottom-wrapper-first-heading::before {
+      top: -40px;
+      left: -60px;
+      -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+      transform: scale(0.6); }
+    .main-header__bottom-wrapper-image {
+      width: initial;
+      position: relative;
+      top: 20vh;
+      -webkit-box-shadow: 15px 15px white;
+      box-shadow: 15px 15px white;
+      margin-left: 5%; } }
+
+:root {
+  --wrapper-padding: 5%; }
+
+html {
+  font-size: 62.5%; }
+
+img {
+  max-width: 100%;
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
