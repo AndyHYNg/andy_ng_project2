@@ -1,0 +1,23 @@
+.hero-nav {
+
+    &__upper-wrapper {
+        background: $pine;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list-item:not(:nth-child(3)) {
+        display: none;
+    }
+
+    &__second-heading {
+        @include heading-style(4.2rem);
+    }
+
+    &__list-link {
+        color: $white-shade;
+    }
+}

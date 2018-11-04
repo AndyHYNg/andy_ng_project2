@@ -203,4 +203,34 @@
     .side-content {
         width: 30%;
     }
+
+    /* HERO NAV MQ STYLE */
+
+    .hero-nav {
+        &__upper-wrapper {
+            justify-content: center;
+            
+            &-image {
+                display: none;
+            }
+
+        }
+
+        &__list {
+            // flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            &-item {
+                padding-left: 3%;
+                padding-right: 3%;
+            }
+
+            &-item:not(:nth-child(3)) {
+                display: block;
+                @include menu-text(2rem);
+            }
+        }
+    }
 }
