@@ -29,10 +29,14 @@
         }
 
         &-container {
-            flex: 3 0 50%;
+            flex: 3 0 60%;
             display: flex;
             flex-direction: column;
             //more stylings for tablet and beyond
+
+            &-text {
+                @include body-text(2rem);
+            }
         }
 
         &-heading-link {

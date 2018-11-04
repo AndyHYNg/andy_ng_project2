@@ -161,4 +161,28 @@
         }
     }
 
+    .footer {
+
+        &__upper-wrapper {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        &__list {
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            &-item {
+                width: 50%;
+            }
+
+            &-link-icon {
+                align-self: flex-start;
+            }
+        }
+    }
+
+    .text--hidden {
+        display: block;
+    }
 }

@@ -389,8 +389,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       flex: 1 0 40%; }
     .footer__list-container {
       -webkit-box-flex: 3;
-      -ms-flex: 3 0 50%;
-      flex: 3 0 50%;
+      -ms-flex: 3 0 60%;
+      flex: 3 0 60%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -398,6 +398,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column; }
+      .footer__list-container-text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 2rem;
+        line-height: 3.2rem; }
     .footer__list-heading-link {
       text-transform: uppercase;
       font-family: "Abril Fatface", cursive;
@@ -567,7 +571,24 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     margin-right: 5%; }
   .gallery__list-item:not(first-child) {
     width: calc(80% / 3);
-    margin-bottom: 5%; } }
+    margin-bottom: 5%; }
+  .footer__upper-wrapper {
+    padding-left: 5%;
+    padding-right: 5%; }
+  .footer__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .footer__list-item {
+      width: 50%; }
+    .footer__list-link-icon {
+      -ms-flex-item-align: start;
+      align-self: flex-start; }
+  .text--hidden {
+    display: block; } }
 
 :root {
   --wrapper-padding: 5%; }
