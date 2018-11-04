@@ -1,4 +1,6 @@
 @media (min-width: 768px) {
+
+    /* index.html STYLES */
     .main-header {
         &__bottom-wrapper {
             padding-left: 10%;
@@ -184,5 +186,21 @@
 
     .text--hidden {
         display: block;
+    }
+
+    /* blog.html STYLES */
+
+    .blog {
+        display: flex;
+        padding: 10%;
+
+        &-entry {
+            width: 70%;
+        }
+    }
+
+    .side-content {
+        width: 30%;
+        order: -1;
     }
 }

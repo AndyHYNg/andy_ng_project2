@@ -1,74 +1,77 @@
-.blog-entry {
+.blog {
     background: $white-shade;
-    padding-left: 5%;
-    padding-right: 5%;
-
-    &__second-heading {
-        @include heading-style(3.2rem);
-    }
-
-    &__text {
-        @include body-text(2rem);
-        border-bottom: 5px solid $pine;
-        margin: 0 0 0;
-
-        &-date {
-            @include body-text(2rem);
+    .blog-entry {
+        background: white;
+        padding-left: 5%;
+        padding-right: 5%;
+    
+        &__second-heading {
+            @include heading-style(3.2rem);
         }
-    }
-
-    &__comment {
-        display: flex;
-        flex-direction: column;
-
-        &-date {
+    
+        &__text {
             @include body-text(2rem);
+            border-bottom: 5px solid $pine;
+            margin: 0 0 0;
+    
+            &-date {
+                @include body-text(2rem);
+            }
         }
-
-        &-post {
-            padding: 20px;
+    
+        &__comment {
             display: flex;
-            background: white;
+            flex-direction: column;
+    
+            &-date {
+                @include body-text(2rem);
+            }
+    
+            &-post {
+                padding: 20px;
+                display: flex;
+                background: white;
+            }
+    
+            &-post:not(last-child) {
+                margin-bottom: 20px;
+            }
         }
-
-        &-post:not(last-child) {
-            margin-bottom: 20px;
+    
+        &__text-container {
+            width: 80%;
         }
-    }
-
-    &__text-container {
-        width: 80%;
-    }
-
-    &__quote {
-        @include body-text(2rem);
-        margin: 0;
-    }
-
-    &__img-container {
-        margin-right: 20px;
-    }
-
-    &__form {
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-
-        &-field {
+    
+        &__quote {
             @include body-text(2rem);
-            padding: 10px;
-            width: 100%;
-            margin-bottom: 10px;
+            margin: 0;
         }
-
-        &-submit {
-            padding-top: 10px;
-            padding-bottom: 10px;
-            border: none;
-            background: $accent-color;
-            @include heading-style(2rem);
-            text-align: center;
-            width: 100%;
+    
+        &__img-container {
+            margin-right: 20px;
+        }
+    
+        &__form {
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+    
+            &-field {
+                @include body-text(2rem);
+                padding: 10px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+    
+            &-submit {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: none;
+                background: $accent-color;
+                @include heading-style(2rem);
+                text-align: center;
+                width: 100%;
+            }
         }
     }
 }
@@ -78,6 +81,7 @@
 }
 
 .side-content {
+    background: $white-shade;
     display: flex;
     flex-direction: column;
 
