@@ -192,6 +192,7 @@
 
     .blog {
         display: flex;
+        flex-direction: row-reverse;
         padding: 10%;
 
         &-entry {
@@ -201,6 +202,5 @@
 
     .side-content {
         width: 30%;
-        order: -1;
     }
 }

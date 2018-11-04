@@ -790,14 +790,15 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
     padding: 10%; }
     .blog-entry {
       width: 70%; }
   .side-content {
-    width: 30%;
-    -webkit-box-ordinal-group: 0;
-    -ms-flex-order: -1;
-    order: -1; } }
+    width: 30%; } }
 
 :root {
   --wrapper-padding: 5%; }
