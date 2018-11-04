@@ -132,6 +132,19 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.visuallyhidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0);
+  overflow: hidden; }
+
 .main-header {
   height: 100vh;
   display: -webkit-box;
@@ -472,6 +485,79 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       text-transform: uppercase;
       line-height: 60px;
       color: #f6f6f6; }
+
+.blog-entry {
+  background: #f6f6f6;
+  padding-left: 5%;
+  padding-right: 5%; }
+  .blog-entry__second-heading {
+    font-family: "Abril Fatface", cursive;
+    font-size: 3.2rem;
+    text-transform: uppercase; }
+  .blog-entry__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    border-bottom: 5px solid #345231;
+    margin: 0 0 0; }
+    .blog-entry__text-date {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+      line-height: 3.2rem; }
+  .blog-entry__comment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .blog-entry__comment-date {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+      line-height: 3.2rem; }
+    .blog-entry__comment-post {
+      padding: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      background: white; }
+    .blog-entry__comment-post:not(last-child) {
+      margin-bottom: 20px; }
+  .blog-entry__text-container {
+    width: 80%; }
+  .blog-entry__quote {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    margin: 0; }
+  .blog-entry__img-container {
+    margin-right: 20px; }
+  .blog-entry__form {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .blog-entry__form-field {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+      line-height: 3.2rem;
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 10px; }
+    .blog-entry__form-submit {
+      font-family: "Abril Fatface", cursive;
+      font-size: 2rem;
+      text-transform: uppercase;
+      text-align: center;
+      width: 100%; }
+
+.form-field--comment {
+  resize: none; }
 
 .wrapper--padding {
   padding-left: var(--wrapper-padding);
