@@ -8,6 +8,10 @@
 @import "partials/home-gallery";
 @import "partials/home-footer";
 
+:root {
+    --wrapper-padding: 5%;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -17,9 +21,9 @@ img {
     display: block;
 }
 
-.wrapper--margin {
-    padding-left: 10px;
-    padding-right: 10px;
+.wrapper--padding {
+    padding-left: var(--wrapper-padding);
+    padding-right: var(--wrapper-padding);
 }
 
 .list--normalize {

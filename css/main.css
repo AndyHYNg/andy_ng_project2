@@ -381,6 +381,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       padding-top: 5px;
       padding-bottom: 5px; }
 
+:root {
+  --wrapper-padding: 5%; }
+
 html {
   font-size: 62.5%; }
 
@@ -388,9 +391,9 @@ img {
   max-width: 100%;
   display: block; }
 
-.wrapper--margin {
-  padding-left: 10px;
-  padding-right: 10px; }
+.wrapper--padding {
+  padding-left: var(--wrapper-padding);
+  padding-right: var(--wrapper-padding); }
 
 .list--normalize {
   list-style-type: none;
