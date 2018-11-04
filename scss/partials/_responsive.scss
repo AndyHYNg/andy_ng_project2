@@ -1,8 +1,8 @@
 @media (min-width: 768px) {
     .main-header {
         &__bottom-wrapper {
-            margin-left: 10%;
-            margin-right: 10%;
+            padding-left: 10%;
+            padding-right: 10%;
             flex-direction: row;
             justify-content: center;
             align-items: flex-start;
@@ -24,10 +24,111 @@
             &-image {
                 width: initial;
                 position: relative;
-                top: 20vh;
+                top: 15vh;
                 box-shadow: 15px 15px white;
                 margin-left: 5%;
             }
         }
     }
+
+    .about-willow {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .blog {
+        &__first-entry {
+            flex-direction: row;
+
+            &-figure {
+                max-width: 80%;
+                float: right;
+            }
+
+            &-text-container {
+                align-items: flex-start;
+                align-self: flex-end;
+                padding-bottom: 30px;
+                width: 50%;
+            }
+
+            &-text {
+                text-align: left;
+            }
+
+            &-image {
+                position: relative;
+                bottom: 50px;
+                right: 50px; //set to 0 on next mq
+                box-shadow: -100px 20px 0 $green-grey, 
+                            20px 20px 0 $green-grey;
+                            //set the -100px to 600px on next mq
+            }
+        }
+
+        &__first-img-container {
+            position: relative;
+            width: 50%;
+        }
+
+
+        &__second-entry {
+            // padding-top: 50px; for next mq
+            flex-direction: row;
+
+            &-figure {
+                max-width: 80%;
+            }
+
+            &-text-container {
+                padding-top: 20px;
+                align-items: flex-end;
+                align-self: flex-start;
+                width: 50%;
+            }
+
+            &-text {
+                text-align: right;
+            }
+
+            &-image {
+                position: relative;
+                top: 20px;
+                box-shadow: 100px 20px 0 $pine, 
+                            20px 20px 0 $pine;
+                            //set the 100px to 600px on next mq
+            }
+
+            &-text-container {
+                width: 50%;
+            }
+        }
+
+        &__second-img-container {
+            position: relative;
+            width: 50%;
+            order: 2;
+        }
+    }
+
+    .willow-journey {
+        &__wrapper {
+            display: block;
+        }
+
+        &__img-container {
+            margin-right: 50px;
+            float: left;
+            box-shadow: 20px 20px 0 $green-grey;
+        }
+
+        &__text-container {
+            align-items: flex-start;
+        }
+
+        &__text {
+            text-align: left;
+        }
+    }
+
 }

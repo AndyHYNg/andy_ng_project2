@@ -439,8 +439,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media (min-width: 768px) {
   .main-header__bottom-wrapper {
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -467,10 +467,83 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     .main-header__bottom-wrapper-image {
       width: initial;
       position: relative;
-      top: 20vh;
+      top: 15vh;
       -webkit-box-shadow: 15px 15px white;
       box-shadow: 15px 15px white;
-      margin-left: 5%; } }
+      margin-left: 5%; }
+  .about-willow {
+    padding-top: 75px;
+    padding-bottom: 75px; }
+  .blog__first-entry {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .blog__first-entry-figure {
+      max-width: 80%;
+      float: right; }
+    .blog__first-entry-text-container {
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      -ms-flex-item-align: end;
+      align-self: flex-end;
+      padding-bottom: 30px;
+      width: 50%; }
+    .blog__first-entry-text {
+      text-align: left; }
+    .blog__first-entry-image {
+      position: relative;
+      bottom: 50px;
+      right: 50px;
+      -webkit-box-shadow: -100px 20px 0 #709b6b, 20px 20px 0 #709b6b;
+      box-shadow: -100px 20px 0 #709b6b, 20px 20px 0 #709b6b; }
+  .blog__first-img-container {
+    position: relative;
+    width: 50%; }
+  .blog__second-entry {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    .blog__second-entry-figure {
+      max-width: 80%; }
+    .blog__second-entry-text-container {
+      padding-top: 20px;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      -ms-flex-item-align: start;
+      align-self: flex-start;
+      width: 50%; }
+    .blog__second-entry-text {
+      text-align: right; }
+    .blog__second-entry-image {
+      position: relative;
+      top: 20px;
+      -webkit-box-shadow: 100px 20px 0 #345231, 20px 20px 0 #345231;
+      box-shadow: 100px 20px 0 #345231, 20px 20px 0 #345231; }
+    .blog__second-entry-text-container {
+      width: 50%; }
+  .blog__second-img-container {
+    position: relative;
+    width: 50%;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2; }
+  .willow-journey__wrapper {
+    display: block; }
+  .willow-journey__img-container {
+    margin-right: 50px;
+    float: left;
+    -webkit-box-shadow: 20px 20px 0 #709b6b;
+    box-shadow: 20px 20px 0 #709b6b; }
+  .willow-journey__text-container {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+  .willow-journey__text {
+    text-align: left; } }
 
 :root {
   --wrapper-padding: 5%; }
