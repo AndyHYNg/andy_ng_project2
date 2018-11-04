@@ -1,9 +1,12 @@
 .blog {
     background: $white-shade;
     .blog-entry {
-        background: white;
         padding-left: 5%;
         padding-right: 5%;
+
+        &__article {
+            background: white;
+        }
     
         &__second-heading {
             @include heading-style(3.2rem);

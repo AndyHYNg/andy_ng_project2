@@ -489,9 +489,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .blog {
   background: #f6f6f6; }
   .blog .blog-entry {
-    background: white;
     padding-left: 5%;
     padding-right: 5%; }
+    .blog .blog-entry__article {
+      background: white; }
     .blog .blog-entry__second-heading {
       font-family: "Abril Fatface", cursive;
       font-size: 3.2rem;
