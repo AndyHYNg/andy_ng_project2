@@ -193,12 +193,17 @@
         padding: 10%;
 
         &-entry {
-            width: 70%;
+            flex: 2 0 70%;
         }
     }
 
     .side-content {
-        width: 30%;
+        flex: 1 0 30%;
+
+        &__about-willow-wrapper {
+            padding: 12%;
+            margin-top: 0;
+        }
     }
 
     /* HERO NAV MQ STYLE */
