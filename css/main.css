@@ -185,7 +185,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 3.2rem;
     padding: 10px;
     width: 100%;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    border: none; }
   .submit-form__submit {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -646,7 +647,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  background: white; }
 
 .social-media-list {
   display: -webkit-box;
@@ -878,7 +880,20 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       font-family: "Montserrat", sans-serif;
       font-weight: bold;
       font-size: 2rem;
-      line-height: 2.9rem; } }
+      line-height: 2.9rem; }
+  /* contact.html STYLES */
+  .contact-wrapper {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+  .contact-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; } }
 
 :root {
   --wrapper-padding: 5%; }

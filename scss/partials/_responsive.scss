@@ -233,4 +233,15 @@
             }
         }
     }
+
+    /* contact.html STYLES */
+
+    .contact-wrapper {
+        align-items: flex-start;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
