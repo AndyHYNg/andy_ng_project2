@@ -21,6 +21,11 @@
         align-items: center;
     }
 
+    &__button-container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
     &__third-heading {
         text-align: center;
         @include heading-style(4.2rem);

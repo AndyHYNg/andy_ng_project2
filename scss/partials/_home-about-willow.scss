@@ -16,5 +16,8 @@
 
     &__text {
         @include body-text(2rem);
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }

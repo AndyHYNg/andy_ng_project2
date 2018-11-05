@@ -35,11 +35,6 @@
         }
     }
 
-    .about-willow {
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
-
     .blog {
         &__first-entry {
             flex-direction: row;
@@ -245,5 +240,13 @@
     .contact-content {
         display: flex;
         flex-direction: row-reverse;
+    }
+}
+
+@media (min-width: 900px) {
+
+    .about-willow {
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 }
