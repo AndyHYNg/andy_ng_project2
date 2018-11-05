@@ -632,6 +632,46 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       line-height: 60px;
       color: #f6f6f6; }
 
+.contact-content {
+  background: #f6f6f6;
+  padding: 5%; }
+
+.contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.social-media-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .social-media-list-item {
+    color: #345231;
+    margin-right: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    line-height: 3.2rem; }
+  .social-media-list-item:last-child {
+    margin-right: 0; }
+
+.address-list__link {
+  font-weight: bold;
+  color: #1f1f1f; }
+
+.address-list__item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-style: normal;
+  color: #1f1f1f; }
+
 .wrapper--padding {
   padding-left: var(--wrapper-padding);
   padding-right: var(--wrapper-padding); }

@@ -1,0 +1,40 @@
+.contact-content {
+    background: $white-shade;
+    padding: 5%;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    &-list {
+        display: flex;
+
+        &-item {
+            color: $pine;
+            margin-right: 30px;
+            @include body-text(2rem);
+        }
+
+        &-item:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.address {
+    &-list {
+        &__link {
+            font-weight: bold;
+            color: $black;
+        }
+        &__item {
+            @include body-text(2rem);
+            font-style: normal;
+            color: $black;
+        }
+    }
+}
