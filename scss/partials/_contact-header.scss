@@ -1,0 +1,22 @@
+.contact-header {
+    background: url("../../assets/blog-image-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__bottom-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+        align-self: flex-start;
+
+        &-first-heading {
+            @include heading-style(8rem);
+            line-height: 60px;
+            color: $white-shade;
+        }
+    }
+}

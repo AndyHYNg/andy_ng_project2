@@ -170,6 +170,33 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .hero-nav__list-link {
   color: #f6f6f6; }
 
+.submit-form {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .submit-form__field {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px; }
+  .submit-form__submit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background: #e4a43b;
+    font-family: "Abril Fatface", cursive;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%; }
+
 .main-header {
   height: 100vh;
   display: -webkit-box;
@@ -520,32 +547,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       margin: 0; }
     .blog .blog-entry__img-container {
       margin-right: 20px; }
-    .blog .blog-entry__form {
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-      .blog .blog-entry__form-field {
-        font-family: "Montserrat", sans-serif;
-        font-size: 2rem;
-        line-height: 3.2rem;
-        padding: 10px;
-        width: 100%;
-        margin-bottom: 10px; }
-      .blog .blog-entry__form-submit {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border: none;
-        background: #e4a43b;
-        font-family: "Abril Fatface", cursive;
-        font-size: 2rem;
-        text-transform: uppercase;
-        text-align: center;
-        width: 100%; }
 
 .form-field--comment {
   resize: none; }
@@ -600,6 +601,36 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 3.2rem; }
   .side-content__list-link {
     color: #1f1f1f; }
+
+.contact-header {
+  background: url("../../assets/blog-image-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .contact-header__bottom-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    -ms-flex-item-align: start;
+    align-self: flex-start; }
+    .contact-header__bottom-wrapper-first-heading {
+      font-family: "Abril Fatface", cursive;
+      font-size: 8rem;
+      text-transform: uppercase;
+      line-height: 60px;
+      color: #f6f6f6; }
 
 .wrapper--padding {
   padding-left: var(--wrapper-padding);

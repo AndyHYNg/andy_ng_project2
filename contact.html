@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Willow</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel='stylesheet' href='css/main.css'>
+</head>
+
+<body>
+    <header class="contact-header" id="home">
+        <div class="hero-nav__upper-wrapper wrapper--padding">
+            <img class="hero-nav__upper-wrapper-image" src="assets/hamburger-menu.png" alt="hamburger menu icon">
+            <!--might want to use fontawesome instead of the img -->
+            <nav class="hero-nav__upper-wrapper-nav">
+                <ul class="hero-nav__list list--normalize">
+                    <li class="hero-nav__list-item">
+                        <a class="hero-nav__list-link link--normalize" href="#home">Home</a>
+                    </li>
+                    <li class="hero-nav__list-item">
+                        <a class="hero-nav__list-link link--normalize" href="#about">About</a>
+                    </li>
+                    <li class="hero-nav__list-item list-item--mobile">
+                        <h2 class="hero-nav__second-heading heading--normalize">
+                            <a class="hero-nav__list-link link--normalize" href="#home">Willow</a>
+                        </h2>
+                    </li>
+                    <li class="hero-nav__list-item">
+                        <a class="hero-nav__list-lin link--normalize" href="blog.html">Blog</a>
+                    </li>
+                    <li class="hero-nav__list-item">
+                        <a class="hero-nav__list-link link--normalize" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contact-header__bottom-wrapper">
+            <h1 class="contact-header__bottom-wrapper-first-heading heading--normalize">Contact Me</h1>
+        </div>
+    </header>
+    <main id="main-content">
+        <div class="contact-content">
+            <aside class="contact-content-details">
+                <div class="contact-wrapper">
+                    <nav class="social-media-nav">
+                        <ul class="social-media-list">
+                            <li class="social-media-list-item">
+                                <a href="https://www.facebook.com/">
+                                    <i class="fab fa-facebook-f" aria-hidden="true"><span class="visuallyhidden">Facebook</span></i></a></li>
+                            <li class="social-media-list-item">
+                                <a href="https://twitter.com/">
+                                    <i class="fab fa-twitter" aria-hidden="true">
+                                        <span
+                                            class="visuallyhidden">Twitter</span></i></a></li>
+                            <li class="social-media-list-item">
+                                <a href="https://www.linkedin.com/">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true">
+                                        <span class="visuallyhidden">LinkedIn</span></i></a></li>
+                            <li class="social-media-list-item">
+                                <a href="https://www.instagram.com/">
+                                    <i class="fab fa-instagram" aria-hidden="true">
+                                        <span class="visuallyhidden">Instagram</span></i></a></li>
+                        </ul>
+                    </nav>
+                    <address class="contact-content-email"><a href="mailto:info@email.com">info@email.com</a></address>
+                    <address class="contact-content-tel">123 - 456 - 7890</address>
+                    <address class="contact-content-city">Toronto, Ontario</address>
+                    <address class="contact-content-postal">M5V2D5</address>
+                </div>
+            </aside>
+            <form class="submit-form" action="#">
+                <label class="visuallyhidden" for="submit-form__name" name="submit-form__name">Name</label>
+                <!--is bem necessary for this? -->
+                <input class="submit-form__field" id="submit-form__name" type="text" placeholder="Name" required>
+                <label class="visuallyhidden" for="submit-form__email" name="submit-form__email">Email</label>
+                <input class="submit-form__field" id="submit-form__email" type="email" placeholder="Email address" required>
+                <label class="visuallyhidden" for="submit-form__comment" name="submit-form__comment">Comment</label>
+                <textarea class="submit-form__field form-field--comment" name="submit-form__comment" rows="10" placeholder="Comment"
+                    required></textarea>
+                <input class="submit-form__submit" name="submit-form__submit" type="submit" value="Post Comment">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__bottom-wrapper">
+            <p class="footer__bottom-wrapper-text">Copyright &copy; 2018 HackerYou</p>
+        </div>
+    </footer>
+</body>
+</html>
