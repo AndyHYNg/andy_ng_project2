@@ -954,11 +954,28 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       font-weight: bold;
       font-size: 2rem;
       line-height: 2.9rem; }
+  /* Form MQ STYLES */
+  .submit-form__field:nth-child(2) {
+    margin-right: 10px;
+    width: calc(50% - 5px); }
+  .submit-form__field:nth-child(4) {
+    width: calc(50% - 5px); }
   /* contact.html STYLES */
+  .contact-header__bottom-wrapper {
+    width: 100%;
+    padding-left: 5%; }
   .contact-wrapper {
     -webkit-box-align: start;
     -ms-flex-align: start;
-    align-items: flex-start; }
+    align-items: flex-start;
+    padding: 0 20px 20px 20px;
+    margin-right: 10%;
+    margin-top: 0; }
+  .social-media-list-item {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .social-media-list-item:first-child {
+    padding-left: 0; }
   .contact-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -966,12 +983,18 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse; } }
+    flex-direction: row-reverse; }
+    .contact-content-form-container {
+      width: calc(100% * (2 / 3)); } }
 
 @media (min-width: 900px) {
   .about-willow {
     padding-top: 75px;
-    padding-bottom: 75px; } }
+    padding-bottom: 75px; }
+  .contact-header__bottom-wrapper {
+    padding-left: 10%; }
+  .contact-content {
+    padding: 5% 10%; } }
 
 :root {
   --wrapper-padding: 5%; }
