@@ -991,10 +991,30 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .about-willow {
     padding-top: 75px;
     padding-bottom: 75px; }
+  .blog__first-entry-image {
+    position: relative;
+    bottom: 50px;
+    right: 0;
+    -webkit-box-shadow: -300px 20px 0 #709b6b, 20px 20px 0 #709b6b;
+    box-shadow: -300px 20px 0 #709b6b, 20px 20px 0 #709b6b; }
+  .blog__second-entry-image {
+    position: relative;
+    top: 20px;
+    -webkit-box-shadow: 300px 20px 0 #345231, 20px 20px 0 #345231;
+    box-shadow: 300px 20px 0 #345231, 20px 20px 0 #345231; }
+  .willow-journey__wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px; }
   .contact-header__bottom-wrapper {
     padding-left: 10%; }
   .contact-content {
     padding: 5% 10%; } }
+
+@media (min-width: 1051px) {
+  .willow-journey__third-heading {
+    text-align: left; }
+  .willow-journey__button-container {
+    text-align: left; } }
 
 :root {
   --wrapper-padding: 5%; }

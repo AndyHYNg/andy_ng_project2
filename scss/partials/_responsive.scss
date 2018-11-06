@@ -95,7 +95,6 @@
                 top: 20px;
                 box-shadow: 100px 20px 0 $pine, 
                             20px 20px 0 $pine;
-                            //set the 100px to 600px on next mq
             }
 
             &-text-container {
@@ -130,7 +129,7 @@
         }
 
         &__button-container {
-            text-align: center; //turn this off at next mq
+            text-align: center;
         }
     }
 
@@ -238,7 +237,6 @@
         }
 
         &__list {
-            // flex-grow: 1;
             display: flex;
             align-items: center;
             justify-content: space-around;
@@ -291,7 +289,6 @@
     .contact-content {
         display: flex;
         flex-direction: row-reverse;
-        // padding: 5% 10%; <--next mq
 
         &-form-container {
             width: calc(100% * (2 / 3));
@@ -306,11 +303,45 @@
         padding-bottom: 75px;
     }
 
+    .blog__first-entry-image {
+        position: relative;
+        bottom: 50px;
+        right: 0;
+        box-shadow: -300px 20px 0 $green-grey, 
+                    20px 20px 0 $green-grey;
+    }
+
+    .blog__second-entry-image {
+        position: relative;
+        top: 20px;
+        box-shadow: 300px 20px 0 $pine, 
+                    20px 20px 0 $pine;
+    }
+
+    .willow-journey {
+        &__wrapper {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    }
+
     .contact-header__bottom-wrapper {
         padding-left: 10%;
     }
 
     .contact-content {
         padding: 5% 10%;
+    }
+}
+
+@media (min-width: 1051px) {
+    .willow-journey {
+        &__third-heading {
+            text-align: left;
+        }
+        
+        &__button-container {
+            text-align: left;
+        }
     }
 }
