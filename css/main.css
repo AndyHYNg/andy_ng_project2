@@ -168,7 +168,12 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   text-transform: uppercase; }
 
 .hero-nav__list-link {
-  color: #f6f6f6; }
+  color: #f6f6f6;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out; }
+  .hero-nav__list-link:hover {
+    color: #e4a43b; }
 
 .submit-form {
   -webkit-box-pack: center;
@@ -191,6 +196,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     margin-bottom: 10px;
     border: none; }
   .submit-form__submit {
+    color: #1f1f1f;
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
@@ -199,7 +205,13 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out; }
+    .submit-form__submit:hover {
+      color: #e4a43b;
+      background-color: #1f1f1f; }
 
 .main-header {
   min-height: 100vh;
@@ -717,11 +729,18 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     padding-top: 20px;
     padding-bottom: 20px; }
   .social-media-list-link {
-    color: #345231; }
+    color: #345231;
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out; }
+    .social-media-list-link:hover {
+      color: #e4a43b; }
 
 .address-list__link {
   font-weight: bold;
   color: #1f1f1f; }
+  .address-list__link:hover {
+    color: #345231; }
 
 .address-list__item {
   font-family: "Montserrat", sans-serif;
@@ -759,7 +778,13 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   color: #1f1f1f;
   font-family: "Abril Fatface", cursive;
   font-size: 1.8rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out; }
+  .link--button:hover {
+    color: #e4a43b;
+    background-color: #1f1f1f; }
 
 .heading--normalize {
   margin: 0; }

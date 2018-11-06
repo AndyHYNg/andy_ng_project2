@@ -25,6 +25,11 @@
 
         &-link {
             color: $pine; 
+            transition: color 0.2s ease-in-out;
+
+            &:hover {
+                color: $accent-color;
+            }
         }
     }
 }
@@ -34,6 +39,9 @@
         &__link {
             font-weight: bold;
             color: $black;
+            &:hover {
+                color: $pine;
+            }
         }
         &__item {
             @include body-text(2rem);

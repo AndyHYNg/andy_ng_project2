@@ -12,6 +12,7 @@
     }
 
     &__submit {
+        color: $black;
         padding-top: 10px;
         padding-bottom: 10px;
         border: none;
@@ -19,5 +20,12 @@
         @include heading-style(2rem);
         text-align: center;
         width: 100%;
+        transition: color 0.2s ease-in-out,
+                    background-color 0.2s ease-in-out;
+
+        &:hover {
+            color: $accent-color;
+            background-color: $black;
+        }
     }
 }

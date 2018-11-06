@@ -13,11 +13,17 @@
         display: none;
     }
 
+
     &__second-heading {
         @include heading-style(4.2rem);
     }
 
     &__list-link {
         color: $white-shade;
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: $accent-color;
+        }
     }
 }

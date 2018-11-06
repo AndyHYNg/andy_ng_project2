@@ -27,6 +27,13 @@
     padding: 15px 18px;
     color: $black;
     @include heading-style(1.8rem);
+    transition: color 0.2s ease-in-out,
+                background-color 0.2s ease-in-out;
+
+    &:hover {
+        color: $accent-color;
+        background-color: $black;
+    }
 }
 
 .heading--normalize {
