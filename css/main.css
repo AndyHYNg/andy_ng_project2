@@ -796,7 +796,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     .main-header__bottom-wrapper-image {
       width: initial;
       position: relative;
-      top: 15vh;
+      top: 20vh;
       -webkit-box-shadow: 15px 15px white;
       box-shadow: 15px 15px white;
       margin-left: 5%; }
@@ -814,6 +814,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       align-items: flex-start;
       -ms-flex-item-align: end;
       align-self: flex-end;
+      padding: 50px 7.5%;
       padding-bottom: 30px;
       width: 50%; }
     .blog__first-entry-text {
@@ -835,7 +836,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     .blog__second-entry-figure {
       max-width: 80%; }
     .blog__second-entry-text-container {
-      padding-top: 20px;
+      padding: 20px 7.5% 50px 7.5%;
       -webkit-box-align: end;
       -ms-flex-align: end;
       align-items: flex-end;

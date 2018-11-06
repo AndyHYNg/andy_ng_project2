@@ -28,7 +28,7 @@
             &-image {
                 width: initial;
                 position: relative;
-                top: 15vh;
+                top: 20vh;
                 box-shadow: 15px 15px white;
                 margin-left: 5%;
             }
@@ -47,6 +47,7 @@
             &-text-container {
                 align-items: flex-start;
                 align-self: flex-end;
+                padding: 50px 7.5%;
                 padding-bottom: 30px;
                 width: 50%;
             }
@@ -58,10 +59,9 @@
             &-image {
                 position: relative;
                 bottom: 50px;
-                right: 50px; //set to 0 on next mq
+                right: 50px; 
                 box-shadow: -100px 20px 0 $green-grey, 
                             20px 20px 0 $green-grey;
-                            //set the -100px to 600px on next mq
             }
         }
 
@@ -80,7 +80,7 @@
             }
 
             &-text-container {
-                padding-top: 20px;
+                padding: 20px 7.5% 50px 7.5%;
                 align-items: flex-end;
                 align-self: flex-start;
                 width: 50%;
