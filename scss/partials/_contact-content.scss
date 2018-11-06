@@ -4,6 +4,9 @@
 }
 
 .contact-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,14 +17,14 @@
     &-list {
         display: flex;
 
-        &-item {
-            color: $pine;
-            margin-right: 30px;
+        &-item {    
+            padding-left: 30px;
+            padding-right: 30px;
             @include body-text(2rem);
         }
 
-        &-item:last-child {
-            margin-right: 0;
+        &-link {
+            color: $pine; 
         }
     }
 }
@@ -34,6 +37,7 @@
         }
         &__item {
             @include body-text(2rem);
+            padding: 0;
             font-style: normal;
             color: $black;
         }

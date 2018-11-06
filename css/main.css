@@ -678,9 +678,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     align-self: flex-start; }
     .contact-header__bottom-wrapper-first-heading {
       font-family: "Abril Fatface", cursive;
-      font-size: 8rem;
+      font-size: 6rem;
       text-transform: uppercase;
-      line-height: 60px;
+      line-height: 46px;
       color: #f6f6f6; }
 
 .contact-content {
@@ -688,6 +688,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   padding: 5%; }
 
 .contact-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -705,16 +708,16 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   display: -ms-flexbox;
   display: flex; }
   .social-media-list-item {
-    color: #345231;
-    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     line-height: 3.2rem;
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px; }
-  .social-media-list-item:last-child {
-    margin-right: 0; }
+  .social-media-list-link {
+    color: #345231; }
 
 .address-list__link {
   font-weight: bold;
@@ -727,6 +730,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding: 0;
   font-style: normal;
   color: #1f1f1f; }
 

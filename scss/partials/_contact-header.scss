@@ -14,8 +14,8 @@
         align-self: flex-start;
 
         &-first-heading {
-            @include heading-style(8rem);
-            line-height: 60px;
+            @include heading-style(6rem);
+            line-height: 46px;
             color: $white-shade;
         }
     }
