@@ -965,6 +965,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .contact-header__bottom-wrapper {
     width: 100%;
     padding-left: 5%; }
+    .contact-header__bottom-wrapper-first-heading {
+      font-size: 8rem;
+      line-height: 60px; }
   .contact-wrapper {
     -webkit-box-align: start;
     -ms-flex-align: start;
@@ -984,7 +987,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse; }
+    flex-direction: row-reverse;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
     .contact-content-form-container {
       width: calc(100% * (2 / 3)); } }
 
