@@ -12,153 +12,177 @@
     <link rel='stylesheet' href='css/main.css'>
 </head>
 <body>
-    <header class="main-header" id="home">
-        <div class="hero-nav__upper-wrapper wrapper--padding">
-            <img class="hero-nav__upper-wrapper-image" src="assets/hamburger-menu.png" alt="hamburger menu icon">
-            <nav class="hero-nav__upper-wrapper-nav">
-                <ul class="hero-nav__list list--normalize">
-                    <li class="hero-nav__list-item">
-                        <a class="hero-nav__list-link link--normalize" href="index.html">Home</a>
-                    </li>
-                    <li class="hero-nav__list-item">
-                        <a class="hero-nav__list-link link--normalize" href="#about">About</a>
-                    </li>
-                    <li class="hero-nav__list-item list-item--mobile">
-                        <h2 class="hero-nav__second-heading heading--normalize">
-                            <a class="hero-nav__list-link link--normalize" href="index.html">Willow</a>
-                        </h2>
-                    </li>
-                    <li class="hero-nav__list-item">
-                        <a class="hero-nav__list-link link--normalize" href="blog.html">Blog</a>
-                    </li>
-                    <li class="hero-nav__list-item">
-                        <a class="hero-nav__list-link link--normalize" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="main-header__bottom-wrapper">
-            <div class="main-header__bottom-heading-container">
-                <h1 class="main-header__bottom-wrapper-first-heading heading--normalize">Willow</h1>
+    <input class="hero-nav__checkbox-nav" type="checkbox" id="toggle" name="toggle">
+    <ul class="hero-nav__mobile-nav__list list--normalize">
+        <li class="hero-nav__mobile-nav__list-item">
+            <a class="hero-nav__mobile-nav__list-link link--normalize" href="index.html">Home</a>
+        </li>
+        <li class="hero-nav__mobile-nav__list-item">
+            <a class="hero-nav__mobile-nav__list-link link--normalize" href="#about">About</a>
+        </li>
+        <li class="hero-nav__mobile-nav__list-item list-item--mobile">
+            <h2 class="hero-nav__mobile-nav__second-heading heading--normalize">
+                <a class="hero-nav__mobile-nav__list-link link--normalize" href="index.html">Willow</a>
+            </h2>
+        </li>
+        <li class="hero-nav__mobile-nav__list-item">
+            <a class="hero-nav__mobile-nav__list-link link--normalize" href="blog.html">Blog</a>
+        </li>
+        <li class="hero-nav__mobile-nav__list-item">
+            <a class="hero-nav__mobile-nav__list-link link--normalize" href="contact.html">Contact</a>
+        </li>
+    </ul>
+    <div class="mobile-nav-wrapper">
+        <header class="main-header" id="home">
+            <div class="hero-nav__upper-wrapper wrapper--padding">
+                <label for="toggle">
+                    <img class="hero-nav__upper-wrapper-image" src="assets/hamburger-menu.png" alt="hamburger menu icon">
+                </label>
+                <nav class="hero-nav__upper-wrapper-nav">
+                    <ul class="hero-nav__list list--normalize">
+                        <li class="hero-nav__list-item">
+                            <a class="hero-nav__list-link link--normalize" href="index.html">Home</a>
+                        </li>
+                        <li class="hero-nav__list-item">
+                            <a class="hero-nav__list-link link--normalize" href="#about">About</a>
+                        </li>
+                        <li class="hero-nav__list-item list-item--mobile">
+                            <h2 class="hero-nav__second-heading heading--normalize">
+                                <a class="hero-nav__list-link link--normalize" href="index.html">Willow</a>
+                            </h2>
+                        </li>
+                        <li class="hero-nav__list-item">
+                            <a class="hero-nav__list-link link--normalize" href="blog.html">Blog</a>
+                        </li>
+                        <li class="hero-nav__list-item">
+                            <a class="hero-nav__list-link link--normalize" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="main-header__img-container">
-                <img class="main-header__bottom-wrapper-image" src="assets/home-image-1.jpg" alt="girl looking at an angle with leaves behind her">
-            </div>
-        </div>
-    </header>
-    <main id="main-content">
-        <section class="about-willow" id="about">
-            <div class="about-willow__wrapper wrapper--padding">
-                <h2 class="about-willow__second-heading heading--normalize">Who's Willow?</h2>
-                <p class="about-willow__text">Cras quis nulla commodo, aliquam lectus sed, blandit argue. Cras ullamcorper
-                    bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare.
-                    Phasellus at semper turpis. Nunc eu tellus tortor. Etiam at condimentum nisl, vitae sagittis orci. Donec id
-                    dignissim nunc. Donec elit ante, eleifend a dolor et, venenatis facilisis dolor.</p>
-                <a class="about-willow__link-button link--normalize link--button" href="#">Find out more</a>
-            </div>
-        </section>
-        <section class="blog" id="blog">
-            <article class="blog__first-entry">
-                <div class="blog__first-img-container clearfix">
-                    <figure class="blog__first-entry-figure">
-                        <img class="blog__first-entry-image" src="assets/home-image-2.jpg" alt="Bridge with a waterfall in the background">
-                    </figure>
-                </div>    
-                <section class="blog__first-entry-text-container wrapper--padding">
-                    <h3 class="blog__first-entry-third-heading heading--normalize">Favourite Things</h3>
-                    <p class="blog__first-entry-text">Lorem ipsum dolor sit amet, consecteteur adipiscing elit. In et risus nec
-                        orci ornare condimentum. Nam suscipit odio lorem, id vestibulum lacus tristique eu. Sed urna ex,
-                        porttitor nec iaculis at.</p>
-                    <a class="blog__link-button link--normalize link--button" href="blog.html">Read more</a>
-                </section>
-            </article>
-            <article class="blog__second-entry">
-                <div class="blog__second-img-container">
-                    <figure class="blog__second-entry-figure">
-                        <img class="blog__second-entry-image" src="assets/home-image-3.jpg" alt="Flower floating on water">
-                    </figure>
-                </div>    
-                <section class="blog__second-entry-text-container wrapper--padding">
-                    <h3 class="blog__second-entry-third-heading heading--normalize">Bucket List</h3>
-                    <p class="blog__second-entry-text">Lorem ipsum dolor sit amet, consecteteur adipiscing elit. In et risus
-                        nec
-                        orci ornare condimentum. Nam suscipit odio lorem, id vestibulum lacus tristique eu. Sed urna ex,
-                        porttitor
-                        nec iaculis at.</p>
-                    <a class="blog__link-button link--normalize link--button" href="blog.html">Read more</a>
-                </section>
-            </article>
-        </section>
-        <section class="willow-journey">
-            <div class="willow-journey__wrapper wrapper--padding clearfix">
-                <div class="willow-journey__img-container">
-                    <img src="assets/home-image-4.jpg" alt="girl wearing a yellow jacket looking at leaves">
+            <div class="main-header__bottom-wrapper">
+                <div class="main-header__bottom-heading-container">
+                    <h1 class="main-header__bottom-wrapper-first-heading heading--normalize">Willow</h1>
                 </div>
-                <div class="willow-journey__text-container">
-                    <h3 class="willow-journey__third-heading heading--normalize">Willow's Journey</h3>
-                    <p class="willow-journey__text">Lorem ipsum dolor sit amet, consecteteur adipiscing elit. Nulla pulvinar tortor
-                        nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis
-                        convallis dapibus nulla pulvinar tortor.Lorem ipsum dolor sit amet, consecteteur adipiscing elit. Nulla
-                        pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus.</p>
-                    <div class="willow-journey__button-container">
-                        <a class="willow-journey__link-button link--normalize link--button" href="#">Find out more</a>
+                <div class="main-header__img-container">
+                    <img class="main-header__bottom-wrapper-image" src="assets/home-image-1.jpg" alt="girl looking at an angle with leaves behind her">
+                </div>
+            </div>
+        </header>
+        <main id="main-content">
+            <section class="about-willow" id="about">
+                <div class="about-willow__wrapper wrapper--padding">
+                    <h2 class="about-willow__second-heading heading--normalize">Who's Willow?</h2>
+                    <p class="about-willow__text">Cras quis nulla commodo, aliquam lectus sed, blandit argue. Cras ullamcorper
+                        bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare.
+                        Phasellus at semper turpis. Nunc eu tellus tortor. Etiam at condimentum nisl, vitae sagittis orci. Donec id
+                        dignissim nunc. Donec elit ante, eleifend a dolor et, venenatis facilisis dolor.</p>
+                    <a class="about-willow__link-button link--normalize link--button" href="#">Find out more</a>
+                </div>
+            </section>
+            <section class="blog" id="blog">
+                <article class="blog__first-entry">
+                    <div class="blog__first-img-container clearfix">
+                        <figure class="blog__first-entry-figure">
+                            <img class="blog__first-entry-image" src="assets/home-image-2.jpg" alt="Bridge with a waterfall in the background">
+                        </figure>
+                    </div>    
+                    <section class="blog__first-entry-text-container wrapper--padding">
+                        <h3 class="blog__first-entry-third-heading heading--normalize">Favourite Things</h3>
+                        <p class="blog__first-entry-text">Lorem ipsum dolor sit amet, consecteteur adipiscing elit. In et risus nec
+                            orci ornare condimentum. Nam suscipit odio lorem, id vestibulum lacus tristique eu. Sed urna ex,
+                            porttitor nec iaculis at.</p>
+                        <a class="blog__link-button link--normalize link--button" href="blog.html">Read more</a>
+                    </section>
+                </article>
+                <article class="blog__second-entry">
+                    <div class="blog__second-img-container">
+                        <figure class="blog__second-entry-figure">
+                            <img class="blog__second-entry-image" src="assets/home-image-3.jpg" alt="Flower floating on water">
+                        </figure>
+                    </div>    
+                    <section class="blog__second-entry-text-container wrapper--padding">
+                        <h3 class="blog__second-entry-third-heading heading--normalize">Bucket List</h3>
+                        <p class="blog__second-entry-text">Lorem ipsum dolor sit amet, consecteteur adipiscing elit. In et risus
+                            nec
+                            orci ornare condimentum. Nam suscipit odio lorem, id vestibulum lacus tristique eu. Sed urna ex,
+                            porttitor
+                            nec iaculis at.</p>
+                        <a class="blog__link-button link--normalize link--button" href="blog.html">Read more</a>
+                    </section>
+                </article>
+            </section>
+            <section class="willow-journey">
+                <div class="willow-journey__wrapper wrapper--padding clearfix">
+                    <div class="willow-journey__img-container">
+                        <img src="assets/home-image-4.jpg" alt="girl wearing a yellow jacket looking at leaves">
+                    </div>
+                    <div class="willow-journey__text-container">
+                        <h3 class="willow-journey__third-heading heading--normalize">Willow's Journey</h3>
+                        <p class="willow-journey__text">Lorem ipsum dolor sit amet, consecteteur adipiscing elit. Nulla pulvinar tortor
+                            nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis
+                            convallis dapibus nulla pulvinar tortor.Lorem ipsum dolor sit amet, consecteteur adipiscing elit. Nulla
+                            pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus.</p>
+                        <div class="willow-journey__button-container">
+                            <a class="willow-journey__link-button link--normalize link--button" href="#">Find out more</a>
+                        </div>
                     </div>
                 </div>
+            </section>
+            <section class="gallery">
+                <div class="gallery__wrapper">
+                    <ul class="gallery__wrapper-list list--normalize">
+                        <li class="gallery__list-item"><img src="assets/home-image-5.jpg" alt="field of flowers with a yellow house in the distance"></li>
+                        <li class="gallery__list-item"><img src="assets/home-image-6.jpg" alt="Highway road with trees on both sides in a foggy day"></li>
+                        <li class="gallery__list-item"><img src="assets/home-image-7.jpg" alt="Whole lemons in a bowl with sliced lemons on the side"></li>
+                        <li class="gallery__list-item"><img src="assets/home-image-8.jpg" alt="Winding staircase leading upstairs"></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__upper-wrapper">
+                <nav class="footer__upper-wrapper-nav">
+                    <ul class="footer__list list--normalize">
+                        <li class="footer__list-item">
+                            <div class="footer__list-container">
+                                <a class="footer__list-heading-link footer__list-heading-link--image-icon  link--normalize" href="#gallery">
+                                    <h3 class="footer__list-container-heading heading--normalize">Photos</h3>
+                                </a>
+                                <p class="footer__list-container-text text--hidden">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
+                            </div>
+                        </li>
+                        <li class="footer__list-item">
+                            <div class="footer__list-container">
+                                <a class="footer__list-heading-link footer__list-heading-link--user-icon link--normalize" href="#about">
+                                    <h3 class="footer__list-container-heading heading--normalize">About</h3>
+                                </a>
+                                <p class="footer__list-container-text text--hidden">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
+                            </div>
+                        </li>
+                        <li class="footer__list-item">
+                            <div class="footer__list-container">
+                                <a class="footer__list-heading-link footer__list-heading-link--pc-icon link--normalize" href="#blog">
+                                    <h3 class="footer__list-container-heading heading--normalize">Blog</h3>
+                                </a>
+                                <p class="footer__list-container-text text--hidden">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
+                            </div>
+                        </li>
+                        <li class="footer__list-item">
+                            <div class="footer__list-container">
+                                <a class="footer__list-heading-link footer__list-heading-link--phone-icon link--normalize" href="#contact">
+                                    <h3 class="footer__list-container-heading heading--normalize">Contact Me</h3>
+                                </a>
+                                <p class="footer__list-container-text text--hidden">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </section>
-        <section class="gallery">
-            <div class="gallery__wrapper">
-                <ul class="gallery__wrapper-list list--normalize">
-                    <li class="gallery__list-item"><img src="assets/home-image-5.jpg" alt="field of flowers with a yellow house in the distance"></li>
-                    <li class="gallery__list-item"><img src="assets/home-image-6.jpg" alt="Highway road with trees on both sides in a foggy day"></li>
-                    <li class="gallery__list-item"><img src="assets/home-image-7.jpg" alt="Whole lemons in a bowl with sliced lemons on the side"></li>
-                    <li class="gallery__list-item"><img src="assets/home-image-8.jpg" alt="Winding staircase leading upstairs"></li>
-                </ul>
+            <div class="footer__bottom-wrapper">
+                <p class="footer__bottom-wrapper-text">Copyright &copy; 2018 HackerYou</p>
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer__upper-wrapper">
-            <nav class="footer__upper-wrapper-nav">
-                <ul class="footer__list list--normalize">
-                    <li class="footer__list-item">
-                        <div class="footer__list-container">
-                            <a class="footer__list-heading-link footer__list-heading-link--image-icon  link--normalize" href="#gallery">
-                                <h3 class="footer__list-container-heading heading--normalize">Photos</h3>
-                            </a>
-                            <p class="footer__list-container-text text--hidden">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
-                        </div>
-                    </li>
-                    <li class="footer__list-item">
-                        <div class="footer__list-container">
-                            <a class="footer__list-heading-link footer__list-heading-link--user-icon link--normalize" href="#about">
-                                <h3 class="footer__list-container-heading heading--normalize">About</h3>
-                            </a>
-                            <p class="footer__list-container-text text--hidden">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
-                        </div>
-                    </li>
-                    <li class="footer__list-item">
-                        <div class="footer__list-container">
-                            <a class="footer__list-heading-link footer__list-heading-link--pc-icon link--normalize" href="#blog">
-                                <h3 class="footer__list-container-heading heading--normalize">Blog</h3>
-                            </a>
-                            <p class="footer__list-container-text text--hidden">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
-                        </div>
-                    </li>
-                    <li class="footer__list-item">
-                        <div class="footer__list-container">
-                            <a class="footer__list-heading-link footer__list-heading-link--phone-icon link--normalize" href="#contact">
-                                <h3 class="footer__list-container-heading heading--normalize">Contact Me</h3>
-                            </a>
-                            <p class="footer__list-container-text text--hidden">Ut felis eros, vehicula eu magna nec, laoreet blandit nisi. Fusce auctor erat ac sagittis mattis. Mauris tempus velit sem, sit amet imperdiet dolor placerat et.</p>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="footer__bottom-wrapper">
-            <p class="footer__bottom-wrapper-text">Copyright &copy; 2018 HackerYou</p>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>

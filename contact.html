@@ -14,91 +14,115 @@
 </head>
 
 <body>
-    <header class="contact-header" id="home">
-        <div class="hero-nav__upper-wrapper wrapper--padding">
-            <img class="hero-nav__upper-wrapper-image" src="assets/hamburger-menu.png" alt="hamburger menu icon">
-            <nav class="hero-nav__upper-wrapper-nav">
-                <ul class="hero-nav__list list--normalize">
-                    <li class="hero-nav__list-item">
-                        <a class="hero-nav__list-link link--normalize" href="index.html">Home</a>
-                    </li>
-                    <li class="hero-nav__list-item">
-                        <a class="hero-nav__list-link link--normalize" href="index.html#main-about">About</a>
-                    </li>
-                    <li class="hero-nav__list-item list-item--mobile">
-                        <h2 class="hero-nav__second-heading heading--normalize">
-                            <a class="hero-nav__list-link link--normalize" href="index.html">Willow</a>
-                        </h2>
-                    </li>
-                    <li class="hero-nav__list-item">
-                        <a class="hero-nav__list-link link--normalize" href="blog.html">Blog</a>
-                    </li>
-                    <li class="hero-nav__list-item">
-                        <a class="hero-nav__list-link link--normalize" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="contact-header__bottom-wrapper">
-            <h1 class="contact-header__bottom-wrapper-first-heading heading--normalize">Contact Me</h1>
-        </div>
-    </header>
-    <main id="main-content">
-        <div class="contact-content">
-            <div class="contact-content-form-container">
-                <form class="submit-form" action="#">
-                    <label class="visuallyhidden" for="submit-form__name" name="submit-form__name">Name</label>
-                    <!--is bem necessary for this? -->
-                    <input class="submit-form__field" id="submit-form__name" type="text" placeholder="Name" required>
-                    <label class="visuallyhidden" for="submit-form__email" name="submit-form__email">Email</label>
-                    <input class="submit-form__field" id="submit-form__email" type="email" placeholder="Email address" required>
-                    <label class="visuallyhidden" for="submit-form__comment" name="submit-form__comment">Comment</label>
-                    <textarea class="submit-form__field form-field--comment" name="submit-form__comment" rows="10" placeholder="Comment"
-                        required></textarea>
-                    <input class="submit-form__submit" name="submit-form__submit" type="submit" value="Post Comment">
-                </form>
+    <input class="hero-nav__checkbox-nav" type="checkbox" id="toggle" name="toggle">
+    <ul class="hero-nav__mobile-nav__list list--normalize">
+        <li class="hero-nav__mobile-nav__list-item">
+            <a class="hero-nav__mobile-nav__list-link link--normalize" href="index.html">Home</a>
+        </li>
+        <li class="hero-nav__mobile-nav__list-item">
+            <a class="hero-nav__mobile-nav__list-link link--normalize" href="#about">About</a>
+        </li>
+        <li class="hero-nav__mobile-nav__list-item list-item--mobile">
+            <h2 class="hero-nav__mobile-nav__second-heading heading--normalize">
+                <a class="hero-nav__mobile-nav__list-link link--normalize" href="index.html">Willow</a>
+            </h2>
+        </li>
+        <li class="hero-nav__mobile-nav__list-item">
+            <a class="hero-nav__mobile-nav__list-link link--normalize" href="blog.html">Blog</a>
+        </li>
+        <li class="hero-nav__mobile-nav__list-item">
+            <a class="hero-nav__mobile-nav__list-link link--normalize" href="contact.html">Contact</a>
+        </li>
+    </ul>
+    <div class="mobile-nav-wrapper">
+        <header class="contact-header" id="home">
+            <div class="hero-nav__upper-wrapper wrapper--padding">
+                <label for="toggle">
+                    <img class="hero-nav__upper-wrapper-image" src="assets/hamburger-menu.png" alt="hamburger menu icon">
+                </label>
+                <nav class="hero-nav__upper-wrapper-nav">
+                    <ul class="hero-nav__list list--normalize">
+                        <li class="hero-nav__list-item">
+                            <a class="hero-nav__list-link link--normalize" href="index.html">Home</a>
+                        </li>
+                        <li class="hero-nav__list-item">
+                            <a class="hero-nav__list-link link--normalize" href="index.html#main-about">About</a>
+                        </li>
+                        <li class="hero-nav__list-item list-item--mobile">
+                            <h2 class="hero-nav__second-heading heading--normalize">
+                                <a class="hero-nav__list-link link--normalize" href="index.html">Willow</a>
+                            </h2>
+                        </li>
+                        <li class="hero-nav__list-item">
+                            <a class="hero-nav__list-link link--normalize" href="blog.html">Blog</a>
+                        </li>
+                        <li class="hero-nav__list-item">
+                            <a class="hero-nav__list-link link--normalize" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <aside class="contact-content-details">
-                <div class="contact-wrapper">
-                    <nav class="social-media">
-                        <ul class="social-media-list list--normalize">
-                            <li class="social-media-list-item">
-                                <a class="social-media-list-link link--normalize" href="https://www.facebook.com/">
-                                    <i class="fab fa-facebook-f" aria-hidden="true"><span class="visuallyhidden">Facebook</span></i></a></li>
-                            <li class="social-media-list-item">
-                                <a class="social-media-list-link link--normalize" href="https://twitter.com/">
-                                    <i class="fab fa-twitter" aria-hidden="true">
-                                        <span
-                                            class="visuallyhidden">Twitter</span></i></a></li>
-                            <li class="social-media-list-item">
-                                <a class="social-media-list-link link--normalize" href="https://www.linkedin.com/">
-                                    <i class="fab fa-linkedin-in" aria-hidden="true">
-                                        <span class="visuallyhidden">LinkedIn</span></i></a></li>
-                            <li class="social-media-list-item">
-                                <a class="social-media-list-link link--normalize" href="https://www.instagram.com/">
-                                    <i class="fab fa-instagram" aria-hidden="true">
-                                        <span class="visuallyhidden">Instagram</span></i></a></li>
-                        </ul>
-                    </nav>
-                    <address class="address">
-                        <ul class="address-list list--normalize">
-                            <li class="address-list__item">
-                                <a class="address-list__link link--normalize" href="mailto:info@email.com">info@email.com</a>
-                            </li>
-                            <li class="address-list__item">123 - 456 - 7890</li>
-                            <li class="address-list__item">123 Queen Street West, Unit 10</li>
-                            <li class="address-list__item">Toronto, Ontario</li>
-                            <li class="address-list__item">M5V2D5</li>
-                        </ul>
-                    </address>
+            <div class="contact-header__bottom-wrapper">
+                <h1 class="contact-header__bottom-wrapper-first-heading heading--normalize">Contact Me</h1>
+            </div>
+        </header>
+        <main id="main-content">
+            <div class="contact-content">
+                <div class="contact-content-form-container">
+                    <form class="submit-form" action="#">
+                        <label class="visuallyhidden" for="submit-form__name" name="submit-form__name">Name</label>
+                        <!--is bem necessary for this? -->
+                        <input class="submit-form__field" id="submit-form__name" type="text" placeholder="Name" required>
+                        <label class="visuallyhidden" for="submit-form__email" name="submit-form__email">Email</label>
+                        <input class="submit-form__field" id="submit-form__email" type="email" placeholder="Email address" required>
+                        <label class="visuallyhidden" for="submit-form__comment" name="submit-form__comment">Comment</label>
+                        <textarea class="submit-form__field form-field--comment" name="submit-form__comment" rows="10" placeholder="Comment"
+                            required></textarea>
+                        <input class="submit-form__submit" name="submit-form__submit" type="submit" value="Post Comment">
+                    </form>
                 </div>
-            </aside>
-        </div>
-    </main>
-    <footer>
-        <div class="footer__bottom-wrapper">
-            <p class="footer__bottom-wrapper-text">Copyright &copy; 2018 HackerYou</p>
-        </div>
-    </footer>
+                <aside class="contact-content-details">
+                    <div class="contact-wrapper">
+                        <nav class="social-media">
+                            <ul class="social-media-list list--normalize">
+                                <li class="social-media-list-item">
+                                    <a class="social-media-list-link link--normalize" href="https://www.facebook.com/">
+                                        <i class="fab fa-facebook-f" aria-hidden="true"><span class="visuallyhidden">Facebook</span></i></a></li>
+                                <li class="social-media-list-item">
+                                    <a class="social-media-list-link link--normalize" href="https://twitter.com/">
+                                        <i class="fab fa-twitter" aria-hidden="true">
+                                            <span
+                                                class="visuallyhidden">Twitter</span></i></a></li>
+                                <li class="social-media-list-item">
+                                    <a class="social-media-list-link link--normalize" href="https://www.linkedin.com/">
+                                        <i class="fab fa-linkedin-in" aria-hidden="true">
+                                            <span class="visuallyhidden">LinkedIn</span></i></a></li>
+                                <li class="social-media-list-item">
+                                    <a class="social-media-list-link link--normalize" href="https://www.instagram.com/">
+                                        <i class="fab fa-instagram" aria-hidden="true">
+                                            <span class="visuallyhidden">Instagram</span></i></a></li>
+                            </ul>
+                        </nav>
+                        <address class="address">
+                            <ul class="address-list list--normalize">
+                                <li class="address-list__item">
+                                    <a class="address-list__link link--normalize" href="mailto:info@email.com">info@email.com</a>
+                                </li>
+                                <li class="address-list__item">123 - 456 - 7890</li>
+                                <li class="address-list__item">123 Queen Street West, Unit 10</li>
+                                <li class="address-list__item">Toronto, Ontario</li>
+                                <li class="address-list__item">M5V2D5</li>
+                            </ul>
+                        </address>
+                    </div>
+                </aside>
+            </div>
+        </main>
+        <footer>
+            <div class="footer__bottom-wrapper">
+                <p class="footer__bottom-wrapper-text">Copyright &copy; 2018 HackerYou</p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

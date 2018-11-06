@@ -146,6 +146,32 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   clip: rect(0 0 0);
   overflow: hidden; }
 
+.hero-nav__checkbox-nav {
+  display: none; }
+
+.hero-nav__checkbox-nav:checked + .hero-nav__mobile-nav__list {
+  left: 0; }
+
+.hero-nav__checkbox-nav:checked ~ .mobile-nav-wrapper {
+  right: -40%; }
+
+.hero-nav label[for="toggle"] {
+  position: fixed;
+  top: 10px;
+  right: 10px; }
+
+.hero-nav__mobile-nav__list {
+  background: #1f1f1f;
+  top: 0;
+  width: 40%;
+  left: -40%;
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
 .hero-nav__upper-wrapper {
   background: #345231;
   width: 100%;
@@ -175,6 +201,13 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   transition: color 0.2s ease-in-out; }
   .hero-nav__list-link:hover {
     color: #e4a43b; }
+
+.mobile-nav-wrapper {
+  position: relative;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
 
 .submit-form {
   -webkit-box-pack: center;
