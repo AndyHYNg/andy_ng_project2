@@ -2,8 +2,7 @@
     background: $white-shade;
 
     &__upper-wrapper {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 50px 0 50px 10%;
     }
 
     &__list {
@@ -12,7 +11,7 @@
 
         &-item {
             display: flex;
-            align-items: center;
+            align-items: center; //for mq
             padding-bottom: 30px;
         }
 
@@ -21,14 +20,16 @@
         }
 
         &-link-icon {
+            display: none;
             color: $accent-color;
-            flex: 1 0 40%;
         }
 
         &-container {
-            flex: 3 0 60%;
+            position: relative;
             display: flex;
             flex-direction: column;
+            padding-left: 75px;
+            margin-left: 15px;
 
             &-text {
                 @include body-text(2rem);
@@ -39,6 +40,22 @@
             text-transform: uppercase;
             @include heading-style(3.2rem);
             color: $black;
+
+            &--image-icon::before {
+                @include pseudo-icons("\f03e");
+            }
+
+            &--user-icon::before {
+                @include pseudo-icons("\f007");
+            }
+
+            &--pc-icon::before {
+                @include pseudo-icons("\f108");
+            }
+
+            &--phone-icon::before {
+                @include pseudo-icons("\f095");
+            }
         }
     }
 

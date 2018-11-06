@@ -172,6 +172,7 @@
 
             &-item {
                 width: 50%;
+                align-items: flex-start;
             }
 
             &-link-icon {
@@ -349,5 +350,12 @@
         &__button-container {
             text-align: left;
         }
+    }
+}
+
+@media (min-width: 1276px) {
+
+    .willow-journey__img-container {
+        margin-bottom: 0;
     }
 }
