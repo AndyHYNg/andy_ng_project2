@@ -6,6 +6,11 @@
     align-items: center;
     background: $pine;
 
+    &__bottom-heading-container {
+        display: flex;
+        justify-content: center;
+    }
+
     &__bottom-wrapper {
         position: relative;
         display: flex;

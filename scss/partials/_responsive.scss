@@ -4,12 +4,17 @@
 
     /* index.html STYLES */
     .main-header {
+
+        &__bottom-heading-container {
+            display: block;
+        }
+
         &__bottom-wrapper {
             padding-left: 10%;
             padding-right: 10%;
             flex-direction: row;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
 
             &-first-heading {
                 text-align: right;
@@ -28,7 +33,7 @@
             &-image {
                 width: initial;
                 position: relative;
-                top: 20vh;
+                top: 15vh;
                 box-shadow: 15px 15px white;
                 margin-left: 5%;
             }

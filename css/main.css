@@ -230,6 +230,13 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -ms-flex-align: center;
   align-items: center;
   background: #345231; }
+  .main-header__bottom-heading-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   .main-header__bottom-wrapper {
     position: relative;
     display: -webkit-box;
@@ -842,6 +849,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 /* TABLET MQ */
 @media (min-width: 768px) {
   /* index.html STYLES */
+  .main-header__bottom-heading-container {
+    display: block; }
   .main-header__bottom-wrapper {
     padding-left: 10%;
     padding-right: 10%;
@@ -852,9 +861,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start; }
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
     .main-header__bottom-wrapper-first-heading {
       text-align: right;
       -ms-flex-item-align: center;
@@ -871,7 +880,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     .main-header__bottom-wrapper-image {
       width: initial;
       position: relative;
-      top: 20vh;
+      top: 15vh;
       -webkit-box-shadow: 15px 15px white;
       box-shadow: 15px 15px white;
       margin-left: 5%; }
