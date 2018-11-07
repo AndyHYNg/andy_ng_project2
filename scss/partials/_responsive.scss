@@ -1,9 +1,56 @@
 /* TABLET MQ */
 
+@media (min-width: 501px) {
+    
+    .main-header {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../../assets/home-image-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        &__bottom-wrapper {
+            // padding-top: 0;
+
+            &-first-heading {
+                margin-top: 30vh;
+                font-size: 8rem;
+
+                &::before {
+                    transform: scale(0.6);
+                    top: -45px;
+                    left: -65px;
+                }
+            }
+        }
+
+        &__img-container {
+            display: none;
+        }
+    }
+
+    .willow-journey {
+
+        &__img-container {
+            box-shadow: 20px 20px 0 $green-grey;
+        }
+    }
+
+    .footer {
+        &__upper-wrapper {
+            padding-right: 5%;
+        }
+    }
+
+    .text--hidden {
+        display: block;
+    }
+}
+
 @media (min-width: 768px) {
 
     /* index.html STYLES */
     .main-header {
+        background-position: 50% 40%;
 
         &__bottom-heading-container {
             display: block;
@@ -22,13 +69,13 @@
                 align-self: center;
                 width: 60%;
                 position: relative;
-                font-size: 8.5rem;
+                font-size: 12rem;
             }
 
             &-first-heading::before {
-                top: -40px;
+                top: -20px;
                 left: -60px;
-                transform: scale(0.6);
+                transform: scale(0.7);
             }
 
             &-image {
@@ -123,7 +170,6 @@
         &__img-container {
             margin-right: 50px;
             float: left;
-            box-shadow: 20px 20px 0 $green-grey;
         }
 
         &__text-container {
@@ -187,9 +233,7 @@
         }
     }
 
-    .text--hidden {
-        display: block;
-    }
+
 
     /* blog.html STYLES */
 
@@ -349,6 +393,25 @@
 }
 
 @media (min-width: 1051px) {
+    
+    .main-header {
+        background: $pine;
+            &__img-container {
+                display: block;
+
+            &__bottom-wrapper {
+                &__first-heading {
+                    font-size: 13rem;
+                    &::before {
+                        top: -10px;
+                        left: -55px;
+                        transform: none;
+                    }
+                }
+            }
+        }
+    }
+ 
     .willow-journey {
         &__third-heading {
             text-align: left;
