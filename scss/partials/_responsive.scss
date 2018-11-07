@@ -41,6 +41,23 @@
         }
     }
 
+    /*blog.html*/
+
+    .side-content {
+        flex-direction: row;
+
+        &__about-willow {
+            flex-basis: 50%;
+            &-wrapper {
+                margin-top: 0;
+            }
+        }
+
+        &__recent-post {
+            flex-basis: 50%;
+        }
+    }
+
     .text--hidden {
         display: block;
     }
@@ -237,8 +254,12 @@
 
     /* blog.html STYLES */
 
-    .blog-header__bottom-wrapper {
-        padding: 0 0 0 5%;
+    .blog-header {
+        justify-content: space-between;
+
+        &__bottom-wrapper {
+            padding: 0 0 0 5%;
+        }
     }
 
     .main-blog {
@@ -252,6 +273,26 @@
             &__article {
                 padding: 30px 30px 0 30px;
             }
+
+            &__comment-post:nth-child(2) {
+                border-bottom: 5px solid $pine; //can dry this
+            }
+        }
+
+        &-form {
+            padding: 0;
+        }
+    }
+
+    .side-content {
+        flex-direction: column;
+
+        &__about-willow {
+            flex-basis: auto;
+        }
+
+        &__recent-post {
+            flex-basis: auto;
         }
     }
 
@@ -263,9 +304,15 @@
             margin: 0 30px 2.5% 0;
         }
 
-        &__recent-post-wrapper {
-            padding: 30px;
-            margin: 0 30px 0 0;
+        &__recent-post {
+            position: -webkit-sticky; /* IE/Edge/Safari */
+            position: sticky;
+            top: 0;
+
+            &-wrapper {
+                padding: 30px;
+                margin: 0 30px 0 0;
+            }
         }
 
         &__text {
@@ -317,13 +364,17 @@
 
     /* contact.html STYLES */
 
-    .contact-header__bottom-wrapper {
-        width: 100%;
-        padding-left: 5%;
+    .contact-header {
+        justify-content: space-between;
 
-        &-first-heading {
-            font-size: 8rem;
-            line-height: 60px;
+        &__bottom-wrapper {
+            width: 100%;
+            padding-left: 5%;
+
+            &-first-heading {
+                font-size: 8rem;
+                line-height: 60px;
+            }
         }
     }
 
