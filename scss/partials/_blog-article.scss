@@ -10,7 +10,7 @@
         &__article {
             background: white;
             padding: 20px 20px 0 20px;
-            border-bottom: 5px solid $pine;
+            border-bottom: 8px solid $green-grey;
         }
     
         &__second-heading {
@@ -44,6 +44,10 @@
     
             &-post:not(last-child) {
                 margin-bottom: 20px;
+            }
+
+            &-post:last-child {
+                border-bottom: 8px solid $green-grey;
             }
         }
     
@@ -81,14 +85,14 @@
             transition: color 0.2s ease-in-out;
 
             &:hover {
-                color: $black;
+                color: $accent-color;
             }
         }
     }
 
     &__third-heading {
         @include heading-style(2.4rem);
-        margin: 10px 0;
+        margin: 20px 0;
     }
 
     &__about-willow {
@@ -128,8 +132,17 @@
         padding: 0;
     }
 
-    &__list-link {
-        text-decoration: none;
-        color: $black;
+    &__list {
+        padding-left: 30px;
+
+        &-link {
+            text-decoration: none;
+            color: $black;
+            transition: color 0.2s ease-in-out;
+
+            &:hover {
+                color: $accent-color;
+            }
+        }
     }
 }

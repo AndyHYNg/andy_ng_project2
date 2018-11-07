@@ -187,6 +187,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     padding-top: 15%;
     padding-bottom: 15%; }
   .hero-nav__mobile-nav__list-link {
+    text-decoration: none;
     color: #345231;
     -webkit-transition: color 0.2s ease-in-out;
     -o-transition: color 0.2s ease-in-out;
@@ -215,21 +216,23 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -ms-flex-align: center;
   align-items: center; }
 
-.hero-nav__list-item:not(:nth-child(3)) {
-  display: none; }
+.hero-nav__list {
+  list-style-type: none; }
+  .hero-nav__list-item:not(:nth-child(3)) {
+    display: none; }
+  .hero-nav__list-link {
+    text-decoration: none;
+    color: #f6f6f6;
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out; }
+    .hero-nav__list-link:hover {
+      color: #e4a43b; }
 
 .hero-nav__second-heading {
   font-family: "Abril Fatface", cursive;
   font-size: 4.2rem;
   text-transform: uppercase; }
-
-.hero-nav__list-link {
-  color: #f6f6f6;
-  -webkit-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out; }
-  .hero-nav__list-link:hover {
-    color: #e4a43b; }
 
 .mobile-nav-wrapper {
   position: relative;
@@ -666,7 +669,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .main-blog-entry__article {
     background: white;
     padding: 20px 20px 0 20px;
-    border-bottom: 5px solid #345231; }
+    border-bottom: 8px solid #709b6b; }
   .main-blog-entry__second-heading {
     font-family: "Abril Fatface", cursive;
     font-size: 3.2rem;
@@ -711,6 +714,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       background: white; }
     .main-blog-entry__comment-post:not(last-child) {
       margin-bottom: 20px; }
+    .main-blog-entry__comment-post:last-child {
+      border-bottom: 8px solid #709b6b; }
   .main-blog-entry__text-container {
     width: 80%; }
   .main-blog-entry__quote {
@@ -750,12 +755,12 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       -o-transition: color 0.2s ease-in-out;
       transition: color 0.2s ease-in-out; }
       .side-content__text-link:hover {
-        color: #1f1f1f; }
+        color: #e4a43b; }
   .side-content__third-heading {
     font-family: "Abril Fatface", cursive;
     font-size: 2.4rem;
     text-transform: uppercase;
-    margin: 10px 0; }
+    margin: 20px 0; }
   .side-content__about-willow {
     background: #f6f6f6; }
     .side-content__about-willow-wrapper {
@@ -794,9 +799,16 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     padding-top: 20px;
     padding-bottom: 20px;
     padding: 0; }
-  .side-content__list-link {
-    text-decoration: none;
-    color: #1f1f1f; }
+  .side-content__list {
+    padding-left: 30px; }
+    .side-content__list-link {
+      text-decoration: none;
+      color: #1f1f1f;
+      -webkit-transition: color 0.2s ease-in-out;
+      -o-transition: color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out; }
+      .side-content__list-link:hover {
+        color: #e4a43b; }
 
 .contact-header {
   background: url("../../assets/contact-image-1.jpg");
@@ -1128,8 +1140,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       flex: 1 0 65%; }
       .main-blog-entry__article {
         padding: 30px 30px 0 30px; }
-      .main-blog-entry__comment-post:nth-child(2) {
-        border-bottom: 5px solid #345231; }
     .main-blog-form {
       padding: 0; }
   .side-content {
