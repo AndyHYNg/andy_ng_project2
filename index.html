@@ -1,5 +1,8 @@
+<!-- index.html MARKUP -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +14,9 @@
         crossorigin="anonymous">
     <link rel='stylesheet' href='css/main.css'>
 </head>
+
 <body>
+    <!-- HAMBURGER NAV MENU STARTS -->
     <input class="hero-nav__checkbox-nav" type="checkbox" id="toggle" name="toggle">
     <ul class="hero-nav__mobile-nav__list list--normalize">
         <li class="hero-nav__mobile-nav__list-item list-item--mobile">
@@ -32,12 +37,15 @@
             <a class="hero-nav__mobile-nav__list-link link--normalize" href="contact.html">Contact</a>
         </li>
     </ul>
+    <!-- HAMBURGER NAV MENU ENDS -->
     <div class="mobile-nav-wrapper">
+        <!-- MAIN INDEX.HTML HEADER STARTS -->
         <header class="main-header" id="home">
             <div class="hero-nav__upper-wrapper wrapper--padding">
                 <label for="toggle">
                     <img class="hero-nav__upper-wrapper-image" src="assets/hamburger-menu.png" alt="hamburger menu icon">
                 </label>
+                <!-- MAIN HEADER NAV STARTS (FOR 758PX SCREENS AND ABOVE) -->
                 <nav class="hero-nav__upper-wrapper-nav">
                     <ul class="hero-nav__list list--normalize">
                         <li class="hero-nav__list-item">
@@ -59,6 +67,7 @@
                         </li>
                     </ul>
                 </nav>
+                <!-- MAIN HEADER NAV ENDS -->
             </div>
             <div class="main-header__bottom-wrapper">
                 <div class="main-header__bottom-heading-container">
@@ -69,7 +78,10 @@
                 </div>
             </div>
         </header>
+        <!-- MAIN INDEX.HTML HEADER ENDS -->
+        <!-- MAIN CONTENT STARTS -->
         <main id="main-content">
+            <!-- ABOUT WILLOW SECTION STARTS -->
             <section class="about-willow" id="about">
                 <div class="about-willow__wrapper wrapper--padding">
                     <h2 class="about-willow__second-heading heading--normalize">Who's Willow?</h2>
@@ -80,6 +92,8 @@
                     <a class="about-willow__link-button link--normalize link--button" href="#">Find out more</a>
                 </div>
             </section>
+            <!-- ABOUT WILLOW SECTION ENDS -->
+            <!-- BLOG SECTION STARTS -->
             <section class="blog" id="blog">
                 <article class="blog__first-entry">
                     <div class="blog__first-img-container clearfix">
@@ -112,6 +126,8 @@
                     </section>
                 </article>
             </section>
+            <!-- BLOG SECTION ENDS -->
+            <!-- WILLO JOURNEY SECTION STARTS -->
             <section class="willow-journey">
                 <div class="willow-journey__wrapper wrapper--padding clearfix">
                     <div class="willow-journey__img-container">
@@ -129,6 +145,8 @@
                     </div>
                 </div>
             </section>
+            <!-- WILLOW JOURNEY SECTION ENDS -->
+            <!-- GALLERY SECTION STARTS -->
             <section class="gallery">
                 <div class="gallery__wrapper">
                     <ul class="gallery__wrapper-list list--normalize">
@@ -139,7 +157,10 @@
                     </ul>
                 </div>
             </section>
+            <!-- GALLERY SECTION ENDS -->
         </main>
+        <!-- MAIN CONTENT ENDS -->
+        <!-- FOOTER STARTS -->
         <footer class="footer">
             <div class="footer__upper-wrapper">
                 <nav class="footer__upper-wrapper-nav">
@@ -183,6 +204,7 @@
                 <p class="footer__bottom-wrapper-text">Copyright &copy; 2018 HackerYou</p>
             </div>
         </footer>
+        <!-- FOOTER ENDS -->
     </div>
 </body>
 </html>
