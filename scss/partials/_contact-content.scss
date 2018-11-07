@@ -1,8 +1,12 @@
+// contact.html - main contact content
+
+// contact-content STYLES
 .contact-content {
     background: $white-shade;
     padding: 5%;
 }
 
+// contact-wrapper STYLES
 .contact-wrapper {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -13,8 +17,12 @@
     background: white;
 }
 
+// social-media STYLES
 .social-media {
     &-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
         display: flex;
 
         &-item {    
@@ -24,6 +32,7 @@
         }
 
         &-link {
+            text-decoration: none;
             color: $pine; 
             transition: color 0.2s ease-in-out;
 
@@ -34,9 +43,15 @@
     }
 }
 
+// address STYLES
 .address {
     &-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
         &__link {
+            text-decoration: none;
             font-weight: bold;
             color: $black;
             &:hover {

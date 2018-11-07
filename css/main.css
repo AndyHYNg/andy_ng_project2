@@ -658,9 +658,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     align-self: flex-start; }
     .blog-header__bottom-wrapper-first-heading {
       font-family: "Abril Fatface", cursive;
-      font-size: 8rem;
+      font-size: 6rem;
       text-transform: uppercase;
-      line-height: 60px;
+      line-height: 45px;
       color: #f6f6f6;
       margin: 0; }
 
@@ -835,9 +835,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     align-self: flex-start; }
     .contact-header__bottom-wrapper-first-heading {
       font-family: "Abril Fatface", cursive;
-      font-size: 6rem;
+      font-size: 5rem;
       text-transform: uppercase;
-      line-height: 46px;
+      line-height: 38px;
       color: #f6f6f6; }
 
 .contact-content {
@@ -861,6 +861,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   background: white; }
 
 .social-media-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -874,6 +877,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     padding-top: 20px;
     padding-bottom: 20px; }
   .social-media-list-link {
+    text-decoration: none;
     color: #345231;
     -webkit-transition: color 0.2s ease-in-out;
     -o-transition: color 0.2s ease-in-out;
@@ -881,22 +885,26 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     .social-media-list-link:hover {
       color: #e4a43b; }
 
-.address-list__link {
-  font-weight: bold;
-  color: #1f1f1f; }
-  .address-list__link:hover {
-    color: #345231; }
-
-.address-list__item {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  line-height: 3.2rem;
-  margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.address-list {
+  list-style-type: none;
   padding: 0;
-  font-style: normal;
-  color: #1f1f1f; }
+  margin: 0; }
+  .address-list__link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1f1f1f; }
+    .address-list__link:hover {
+      color: #345231; }
+  .address-list__item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 0;
+    font-style: normal;
+    color: #1f1f1f; }
 
 .wrapper--padding {
   padding-left: var(--wrapper-padding);
@@ -962,6 +970,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .footer__upper-wrapper {
     padding-right: 5%; }
   /*blog.html*/
+  .blog-header__bottom-wrapper-first-heading {
+    font-size: 8rem;
+    line-height: 60px; }
   .side-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

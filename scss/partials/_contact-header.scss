@@ -1,3 +1,6 @@
+// contact.html - .contact-header component
+
+// contact-header STYLES
 .contact-header {
     background: url("../../assets/contact-image-1.jpg");
     background-size: cover;
@@ -14,8 +17,8 @@
         align-self: flex-start;
 
         &-first-heading {
-            @include heading-style(6rem);
-            line-height: 46px;
+            @include heading-style(5rem);
+            line-height: 38px;
             color: $white-shade;
         }
     }
