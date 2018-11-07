@@ -160,8 +160,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   top: 10px;
   right: 10px; }
 
+.hero-nav__mobile-nav__second-heading {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  padding-top: 10%;
+  padding-bottom: 10%; }
+
 .hero-nav__mobile-nav__list {
-  background: #1f1f1f;
+  background: #e4a43b;
   top: 0;
   width: 40%;
   left: -40%;
@@ -171,8 +177,30 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s; }
+  .hero-nav__mobile-nav__list-item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.9rem;
+    text-align: center; }
+  .hero-nav__mobile-nav__list-item:not(:first-child) {
+    padding-top: 15%;
+    padding-bottom: 15%; }
+  .hero-nav__mobile-nav__list-link {
+    color: #345231;
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out; }
+    .hero-nav__mobile-nav__list-link:hover {
+      color: #1f1f1f; }
+  .hero-nav__mobile-nav__list-item:first-child {
+    font-family: "Abril Fatface", cursive;
+    font-size: 4.2rem;
+    text-transform: uppercase; }
 
 .hero-nav__upper-wrapper {
+  position: fixed;
+  z-index: 2;
   background: #345231;
   width: 100%;
   height: 10vh;
@@ -271,6 +299,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-flex-pack: center;
     justify-content: center; }
   .main-header__bottom-wrapper {
+    padding-top: 10vh;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -286,9 +315,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-flex-align: center;
     align-items: center; }
     .main-header__bottom-wrapper-first-heading {
+      margin-top: 25vh;
+      margin-left: 5%;
       text-transform: uppercase;
       position: absolute;
-      top: 5vh;
       font-family: "Abril Fatface", cursive;
       color: #f6f6f6;
       font-size: 6rem; }
@@ -482,7 +512,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .footer {
   background: #f6f6f6; }
   .footer__upper-wrapper {
-    padding: 50px 0 50px 10%; }
+    padding: 50px 0 50px 5%; }
   .footer__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -885,6 +915,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .main-header__bottom-heading-container {
     display: block; }
   .main-header__bottom-wrapper {
+    padding-top: 0;
     padding-left: 10%;
     padding-right: 10%;
     -webkit-box-orient: horizontal;
@@ -1054,7 +1085,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .hero-nav__upper-wrapper {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    position: relative; }
     .hero-nav__upper-wrapper-image {
       display: none; }
   .hero-nav__list {

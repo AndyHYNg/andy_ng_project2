@@ -10,6 +10,7 @@
         }
 
         &__bottom-wrapper {
+            padding-top: 0;
             padding-left: 10%;
             padding-right: 10%;
             flex-direction: row;
@@ -235,6 +236,7 @@
     .hero-nav {
         &__upper-wrapper {
             justify-content: center;
+            position: relative;
             
             &-image {
                 display: none;
