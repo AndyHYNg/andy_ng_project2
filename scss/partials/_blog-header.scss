@@ -1,3 +1,5 @@
+// blog.html - blog-header component
+
 .blog-header {
     background: url("../../assets/blog-image-1.jpg");
     background-size: cover;
@@ -17,6 +19,7 @@
             @include heading-style(8rem);
             line-height: 60px;
             color: $white-shade;
+            margin: 0;
         }
     }
 }

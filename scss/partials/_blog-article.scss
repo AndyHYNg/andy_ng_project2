@@ -1,5 +1,10 @@
+// blog.html   main-blog component
+//             side-content component
+
+
 .main-blog {
     background: $white-shade;
+
     &-entry {
 
         &__article {
@@ -19,7 +24,6 @@
     
             &-date {
                 @include body-text(2rem);
-                padding: 0;
             }
         }
     
@@ -58,10 +62,6 @@
     }
 }
 
-.form-field--comment {
-    resize: none;
-}
-
 .side-content {
     background: $white-shade;
     display: flex;
@@ -69,6 +69,17 @@
 
     &__text {
         @include body-text(2rem);
+
+        &-link {
+            text-decoration: none;
+            font-weight: bold;
+            color: $pine;
+            transition: color 0.2s ease-in-out;
+
+            &:hover {
+                color: $black;
+            }
+        }
     }
 
     &__third-heading {
@@ -110,6 +121,7 @@
     }
 
     &__list-link {
+        text-decoration: none;
         color: $black;
     }
 }

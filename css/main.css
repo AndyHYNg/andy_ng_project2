@@ -257,6 +257,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     margin-bottom: 10px;
     border: none; }
+    .submit-form__field--no-resize {
+      resize: none; }
   .submit-form__submit {
     color: #1f1f1f;
     padding-top: 10px;
@@ -655,7 +657,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       font-size: 8rem;
       text-transform: uppercase;
       line-height: 60px;
-      color: #f6f6f6; }
+      color: #f6f6f6;
+      margin: 0; }
 
 .main-blog {
   background: #f6f6f6; }
@@ -682,8 +685,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       line-height: 3.2rem;
       margin: 0;
       padding-top: 20px;
-      padding-bottom: 20px;
-      padding: 0; }
+      padding-bottom: 20px; }
   .main-blog-entry__comment {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -721,9 +723,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .main-blog-entry__img-container {
     margin-right: 20px; }
 
-.form-field--comment {
-  resize: none; }
-
 .side-content {
   background: #f6f6f6;
   display: -webkit-box;
@@ -740,6 +739,15 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px; }
+    .side-content__text-link {
+      text-decoration: none;
+      font-weight: bold;
+      color: #345231;
+      -webkit-transition: color 0.2s ease-in-out;
+      -o-transition: color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out; }
+      .side-content__text-link:hover {
+        color: #1f1f1f; }
   .side-content__third-heading {
     font-family: "Abril Fatface", cursive;
     font-size: 2.4rem;
@@ -783,6 +791,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 20px;
     padding: 0; }
   .side-content__list-link {
+    text-decoration: none;
     color: #1f1f1f; }
 
 .contact-header {
