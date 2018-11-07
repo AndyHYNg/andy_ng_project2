@@ -44,6 +44,7 @@
             transition: all 0.5s;
 
             &-item {
+                text-transform: uppercase;
                 @include menu-text(2rem);
                 text-align: center;
             }
@@ -69,7 +70,7 @@
         }
     }
 
-    // tablet/desktop nav STYLES
+    // tablet/desktop nav
 
     &__upper-wrapper {
         padding-left: 5%;

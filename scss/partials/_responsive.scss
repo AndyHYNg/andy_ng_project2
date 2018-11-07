@@ -9,7 +9,6 @@
         background-position: center;
 
         &__bottom-wrapper {
-            // padding-top: 0;
 
             &-first-heading {
                 margin-left: 0;
@@ -150,7 +149,6 @@
 
 
         &__second-entry {
-            // padding-top: 50px; for next mq
             flex-direction: row;
 
             &-figure {
@@ -324,8 +322,6 @@
         }
     }
 
-
-
     /* HERO NAV MQ STYLE */
 
     .hero-nav {
@@ -336,7 +332,6 @@
             &-image {
                 display: none;
             }
-
         }
 
         &__list {

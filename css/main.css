@@ -192,6 +192,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -o-transition: all 0.5s;
   transition: all 0.5s; }
   .hero-nav__mobile-nav__list-item {
+    text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 2rem;
