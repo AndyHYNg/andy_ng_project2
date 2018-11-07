@@ -254,7 +254,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding: 10px;
+    padding: 15px;
     width: 100%;
     margin-bottom: 10px;
     border: none; }
@@ -933,6 +933,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     background-size: cover;
     background-position: center; }
     .main-header__bottom-wrapper-first-heading {
+      margin-left: 0;
       margin-top: 30vh;
       font-size: 8rem; }
       .main-header__bottom-wrapper-first-heading::before {
@@ -1176,8 +1177,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     .hero-nav__list-item {
-      padding-left: 3%;
-      padding-right: 3%; }
+      text-transform: uppercase;
+      padding-left: 5%;
+      padding-right: 5%; }
     .hero-nav__list-item:not(:nth-child(3)) {
       display: block;
       font-family: "Montserrat", sans-serif;

@@ -12,6 +12,7 @@
             // padding-top: 0;
 
             &-first-heading {
+                margin-left: 0;
                 margin-top: 30vh;
                 font-size: 8rem;
 
@@ -341,8 +342,9 @@
             justify-content: space-around;
 
             &-item {
-                padding-left: 3%;
-                padding-right: 3%;
+                text-transform: uppercase;
+                padding-left: 5%;
+                padding-right: 5%;
             }
 
             &-item:not(:nth-child(3)) {
