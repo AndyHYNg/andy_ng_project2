@@ -1,3 +1,5 @@
+// MIXINS STYLES
+
 @mixin pseudo-element($pseudo-content) {
     content: $pseudo-content;
     display: block;

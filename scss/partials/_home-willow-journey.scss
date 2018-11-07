@@ -1,9 +1,10 @@
+// index.html - willow-journey STYLES
+
 .willow-journey {
     background: $white-shade;
 
     &__wrapper {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 50px 5%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -27,6 +28,7 @@
     }
 
     &__third-heading {
+        margin: 0;
         text-align: center;
         @include heading-style(4.2rem);
     }

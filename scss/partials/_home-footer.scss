@@ -1,3 +1,5 @@
+// index.html - footer STYLES
+
 .footer {
     background: $white-shade;
 
@@ -11,7 +13,7 @@
 
         &-item {
             display: flex;
-            align-items: center; //for mq
+            align-items: center;
             padding-bottom: 30px;
         }
 
@@ -31,12 +33,21 @@
             padding-left: 75px;
             margin-left: 15px;
 
+            &-heading {
+                margin: 0;
+            }
+
             &-text {
                 @include body-text(2rem);
+
+                &--hidden {
+                    display: none;
+                }
             }
         }
 
         &-heading-link {
+            text-decoration: none;
             text-transform: uppercase;
             @include heading-style(3.2rem);
             color: $black;

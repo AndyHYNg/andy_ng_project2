@@ -146,6 +146,17 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   clip: rect(0 0 0);
   overflow: hidden; }
 
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: black; }
+
+.skip-link:focus {
+  left: 0; }
+
 .hero-nav__checkbox-nav {
   display: none; }
 
@@ -167,6 +178,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   padding-bottom: 10%; }
 
 .hero-nav__mobile-nav__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   background: #e4a43b;
   top: 0;
   width: 40%;
@@ -200,6 +214,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     text-transform: uppercase; }
 
 .hero-nav__upper-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
   top: 0;
   position: fixed;
   z-index: 2;
@@ -343,8 +359,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .about-willow {
   background: #f6f6f6; }
   .about-willow__wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 5%;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -357,6 +372,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-flex-align: center;
     align-items: center; }
   .about-willow__second-heading {
+    margin: 0;
     font-family: "Abril Fatface", cursive;
     font-size: 4.2rem;
     text-transform: uppercase; }
@@ -383,8 +399,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -ms-flex-align: center;
   align-items: center; }
   .blog__first-entry-text-container {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -396,6 +411,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-flex-align: center;
     align-items: center; }
   .blog__first-entry-third-heading {
+    margin: 0;
     font-family: "Abril Fatface", cursive;
     font-size: 3.2rem;
     text-transform: uppercase; }
@@ -420,8 +436,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -ms-flex-align: center;
   align-items: center; }
   .blog__second-entry-text-container {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -433,6 +448,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     -ms-flex-align: center;
     align-items: center; }
   .blog__second-entry-third-heading {
+    margin: 0;
     font-family: "Abril Fatface", cursive;
     font-size: 3.2rem;
     text-transform: uppercase; }
@@ -448,8 +464,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .willow-journey {
   background: #f6f6f6; }
   .willow-journey__wrapper {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -483,6 +498,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     padding-top: 15px;
     padding-bottom: 15px; }
   .willow-journey__third-heading {
+    margin: 0;
     text-align: center;
     font-family: "Abril Fatface", cursive;
     font-size: 4.2rem;
@@ -551,6 +567,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       flex-direction: column;
       padding-left: 75px;
       margin-left: 15px; }
+      .footer__list-container-heading {
+        margin: 0; }
       .footer__list-container-text {
         font-family: "Montserrat", sans-serif;
         font-size: 2rem;
@@ -558,7 +576,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
         margin: 0;
         padding-top: 20px;
         padding-bottom: 20px; }
+        .footer__list-container-text--hidden {
+          display: none; }
     .footer__list-heading-link {
+      text-decoration: none;
       text-transform: uppercase;
       font-family: "Abril Fatface", cursive;
       font-size: 3.2rem;
@@ -906,25 +927,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     font-style: normal;
     color: #1f1f1f; }
 
-.wrapper--padding {
-  padding-left: var(--wrapper-padding);
-  padding-right: var(--wrapper-padding); }
-
-.list--normalize {
-  list-style-type: none;
-  padding: 0;
-  margin: 0; }
-
-.list-item--hidden {
-  display: none; }
-
-.link--normalize {
-  text-decoration: none; }
-
-.text--hidden {
-  display: none; }
-
 .link--button {
+  text-decoration: none;
   text-transform: uppercase;
   background-color: #e4a43b;
   padding: 15px 18px;
@@ -938,9 +942,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .link--button:hover {
     color: #e4a43b;
     background-color: #1f1f1f; }
-
-.heading--normalize {
-  margin: 0; }
 
 /* TABLET MQ */
 @media (min-width: 501px) {
@@ -986,7 +987,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     .side-content__recent-post {
       -ms-flex-preferred-size: 50%;
       flex-basis: 50%; }
-  .text--hidden {
+  .footer__list-container-text--hidden {
     display: block; } }
 
 @media (min-width: 768px) {

@@ -2,8 +2,7 @@
     background: $white-shade;
 
     &__wrapper {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 50px 5%;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -11,6 +10,7 @@
     }
 
     &__second-heading {
+        margin: 0;
         @include heading-style(4.2rem);
     }
 
