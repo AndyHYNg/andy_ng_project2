@@ -1,9 +1,21 @@
-.gallery__wrapper {
+.gallery__wrapper-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
 .gallery__list-item {
   width: 50%; }
+
+.gallery__list-item:first-child {
+  width: 100%; }
+
+.gallery__list-item:last-child {
+  display: none; }

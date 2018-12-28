@@ -514,6 +514,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 20px; }
 
 .gallery__wrapper-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -656,7 +659,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       padding-bottom: 5px; }
 
 .blog-header {
-  background: url("../../assets/blog-image-1.jpg");
+  background: url("./../assets/blog-image-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -833,7 +836,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
         color: #e4a43b; }
 
 .contact-header {
-  background: url("../../assets/contact-image-1.jpg");
+  background: url("./../assets/contact-image-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
@@ -947,10 +950,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 /* TABLET MQ */
 @media (min-width: 501px) {
   .main-header {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url("../../assets/home-image-1.jpg");
-    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../../assets/home-image-1.jpg");
-    background: -o-linear-gradient(left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../../assets/home-image-1.jpg");
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../../assets/home-image-1.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url("./../assets/home-image-1.jpg");
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./../assets/home-image-1.jpg");
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./../assets/home-image-1.jpg");
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./../assets/home-image-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
