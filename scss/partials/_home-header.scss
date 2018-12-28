@@ -32,7 +32,7 @@
         }
 
         &-first-heading::before {
-            @include pseudo-element(url(../../assets/circle-text.png));
+            @include pseudo-element(url("./../assets/circle-text.png"));
             transform: scale(0.4);
             top: -55px;
             left: -66px;
