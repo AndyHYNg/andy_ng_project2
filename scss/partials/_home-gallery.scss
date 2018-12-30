@@ -13,8 +13,12 @@
         width: 50%;
     }
 
+    &__first-list-item {
+        width: 100%;
+    }
+
     &__list-item:first-child {
-        min-width: 100%;
+        width: 100%;
     }
 
     &__list-item:last-child {

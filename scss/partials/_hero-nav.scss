@@ -84,6 +84,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        &-image {
+            cursor: pointer;
+        }
     }
 
     &__list {

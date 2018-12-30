@@ -232,6 +232,8 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  .hero-nav__upper-wrapper-image {
+    cursor: pointer; }
 
 .hero-nav__list {
   list-style-type: none; }
@@ -529,8 +531,11 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .gallery__list-item {
   width: 50%; }
 
+.gallery__first-list-item {
+  width: 100%; }
+
 .gallery__list-item:first-child {
-  min-width: 100%; }
+  width: 100%; }
 
 .gallery__list-item:last-child {
   display: none; }
