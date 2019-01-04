@@ -878,6 +878,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       font-family: "Abril Fatface", cursive;
       font-size: 5rem;
       text-transform: uppercase;
+      margin: 0;
       line-height: 38px;
       color: #f6f6f6; }
 
