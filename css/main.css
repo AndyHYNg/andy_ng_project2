@@ -313,7 +313,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       background-color: #1f1f1f; }
 
 .main-header {
-  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -966,6 +965,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 /* TABLET MQ */
 @media (min-width: 501px) {
   .main-header {
+    min-height: 100vh;
     background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url("./../assets/home-image-1.jpg");
     background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./../assets/home-image-1.jpg");
     background: -o-linear-gradient(left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("./../assets/home-image-1.jpg");
