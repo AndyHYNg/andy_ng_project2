@@ -157,6 +157,18 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 .skip-link:focus {
   left: 0; }
 
+.html {
+  font-size: 62.5%; }
+
+.image {
+  max-width: 100%;
+  display: block; }
+
+.wrapper {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1600px; }
+
 .hero-nav__checkbox-nav {
   display: none; }
 
@@ -875,8 +887,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   padding: 5%; }
 
 .contact-wrapper {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 5%;
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1113,10 +1124,21 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .gallery__list-item:nth-child(2) {
     margin-left: 5%; }
   .gallery__list-item:nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-left: 2.5%;
     margin-right: 2.5%; }
   .gallery__list-item:last-child {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     margin-right: 5%; }
   .gallery__list-item:not(first-child) {
     width: calc(80% / 3);
@@ -1304,15 +1326,5 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 @media (min-width: 1276px) {
   .willow-journey__img-container {
     margin-bottom: 0; } }
-
-:root {
-  --wrapper-padding: 5%; }
-
-html {
-  font-size: 62.5%; }
-
-img {
-  max-width: 100%;
-  display: block; }
 
 /*# sourceMappingURL=main.css.map */

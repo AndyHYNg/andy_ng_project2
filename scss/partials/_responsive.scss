@@ -219,12 +219,15 @@
         }
 
         &__list-item:nth-child(3) {
+            display: flex;
+            justify-content: center;
             margin-left: 2.5%;
             margin-right: 2.5%;
         }
 
         &__list-item:last-child {
-            display: block;
+            display: flex;
+            justify-content: flex-end;
             margin-right: 5%;
         }
 

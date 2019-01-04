@@ -15,16 +15,3 @@
 @import "partials/contact-content";
 @import "partials/modifiers";
 @import "partials/responsive";
-
-:root {
-    --wrapper-padding: 5%;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
