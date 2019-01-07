@@ -965,6 +965,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 /* TABLET MQ */
 @media (min-width: 501px) {
+  /* index.html */
   .main-header {
     min-height: 100vh;
     background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url("./../assets/home-image-1.jpg");
@@ -991,7 +992,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     box-shadow: 20px 20px 0 #709b6b; }
   .footer__upper-wrapper {
     padding-right: 5%; }
-  /*blog.html*/
+  .footer__list-container-text--hidden {
+    display: block; }
+  /* blog.html */
   .blog-header__bottom-wrapper-first-heading {
     font-size: 8rem;
     line-height: 60px; }
@@ -1007,12 +1010,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
         margin-top: 0; }
     .side-content__recent-post {
       -ms-flex-preferred-size: 50%;
-      flex-basis: 50%; }
-  .footer__list-container-text--hidden {
-    display: block; } }
+      flex-basis: 50%; } }
 
 @media (min-width: 768px) {
-  /* index.html STYLES */
+  /* index.html */
   .main-header {
     background-position: 50% 40%; }
     .main-header__bottom-heading-container {
@@ -1034,6 +1035,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       .main-header__bottom-wrapper-first-heading {
         text-align: right;
         -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
         width: 60%;
         position: relative;
@@ -1162,7 +1164,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     .footer__list-link-icon {
       -ms-flex-item-align: start;
       align-self: flex-start; }
-  /* blog.html STYLES */
+  /* blog.html */
   .blog-header {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -1246,7 +1248,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     width: calc(50% - 5px); }
   .submit-form__field:nth-child(4) {
     width: calc(50% - 5px); }
-  /* contact.html STYLES */
+  /* contact.html */
   .contact-header {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -1284,6 +1286,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
       width: calc(100% * (2 / 3)); } }
 
 @media (min-width: 900px) {
+  /* index.html */
   .about-willow {
     padding-top: 75px;
     padding-bottom: 75px; }
@@ -1301,12 +1304,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   .willow-journey__wrapper {
     padding-top: 100px;
     padding-bottom: 100px; }
+  /* contact.html */
   .contact-header__bottom-wrapper {
     padding-left: 10%; }
   .contact-content {
     padding: 5% 10%; } }
 
 @media (min-width: 1051px) {
+  /* index.html */
   .main-header {
     background: #345231; }
     .main-header__img-container {
@@ -1325,6 +1330,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
     text-align: left; } }
 
 @media (min-width: 1276px) {
+  /* index.html */
   .willow-journey__img-container {
     margin-bottom: 0; } }
 

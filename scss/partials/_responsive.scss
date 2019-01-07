@@ -1,6 +1,8 @@
 /* TABLET MQ */
 
 @media (min-width: 501px) {
+
+    /* index.html */
     
     .main-header {
         min-height: 100vh;
@@ -40,9 +42,13 @@
         &__upper-wrapper {
             padding-right: 5%;
         }
+
+        &__list-container-text--hidden {
+            display: block;
+        }
     }
 
-    /*blog.html*/
+    /* blog.html */
 
     .blog-header {
         &__bottom-wrapper-first-heading {
@@ -65,15 +71,12 @@
             flex-basis: 50%;
         }
     }
-
-    .footer__list-container-text--hidden {
-        display: block;
-    }
 }
 
 @media (min-width: 768px) {
 
-    /* index.html STYLES */
+    /* index.html */
+
     .main-header {
         background-position: 50% 40%;
 
@@ -260,9 +263,7 @@
         }
     }
 
-
-
-    /* blog.html STYLES */
+    /* blog.html */
 
     .blog-header {
         justify-content: space-between;
@@ -366,7 +367,7 @@
         width: calc(50% - 5px);
     }
 
-    /* contact.html STYLES */
+    /* contact.html */
 
     .contact-header {
         justify-content: space-between;
@@ -411,6 +412,8 @@
 
 @media (min-width: 900px) {
 
+    /* index.html */
+
     .about-willow {
         padding-top: 75px;
         padding-bottom: 75px;
@@ -438,6 +441,8 @@
         }
     }
 
+    /* contact.html */
+
     .contact-header__bottom-wrapper {
         padding-left: 10%;
     }
@@ -448,6 +453,8 @@
 }
 
 @media (min-width: 1051px) {
+
+    /* index.html */
     
     .main-header {
         background: $pine;
@@ -479,6 +486,8 @@
 }
 
 @media (min-width: 1276px) {
+
+    /* index.html */
 
     .willow-journey__img-container {
         margin-bottom: 0;
